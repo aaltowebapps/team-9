@@ -1,9 +1,12 @@
 
-Name of the team: Team9
+Name of the HTML5 course (2012H1) team: Team9
 
 Team leader: Kai Sjöblom
 
-List of GitHub accounts: miksu, smulis, kaitsu
+List of GitHub accounts (and account owner names):
+miksu  (Mikael Koponen),
+smulis (Samuli Suortti),
+kaitsu (Kai Sjöblom)
 
 Description of the web application:
 
@@ -26,9 +29,9 @@ Initially planned key use cases:
    with further web links).
 
 
-List of initially planned  specific technologies and APIs:
+List of initially planned technologies and APIs:
 
-Client: jQuery, Backbone.js, Handlebars.js, Twitter Bootstrap
+Client: jQuery, Backbone.js, Handlebars.js, Twitter Bootstrap, HTML5 in general
 Server: Sinatra as RESTful communication proxy
 APIs:   Google Maps API - https://developers.google.com/maps/
         (or Bing/Nokia Maps APIs), Digitraffic API -
