@@ -1,0 +1,23 @@
+
+HTML5 course status report of week 12
+(2012-03-19...2012-03-25):
+======================================
+
+- Application functionality and features planning.
+- Development environment planning continued.
+- AP/Kai: Access rights application written and sent for the desired
+          web services, tentative green light received in phone discussion.
+          Formal bureaucracy with final contract undersignings will take a bit
+          more time, as an earlier related contract has to be searched too.
+- AP/Kai: Windows Phone browser's touch API support matter 
+          examined. (Detail discussion in the next team meeting
+          when the whole team is again together in Greater
+          Helsinki City area 2012-03-26 and decision after that
+          whether the primary target device will be a WP device (Nokia
+          Lumia 800) or Android device (Samsung Galaxy Nexus).
+
+Coming in week 13:
+==================
+- In 2012-03-26 team meeting: Subtasks to be listed.
+- AP/Whole team: Individual work to take place in the agreed specialized areas.
+- AP/Mikael: Development environment to be established.
