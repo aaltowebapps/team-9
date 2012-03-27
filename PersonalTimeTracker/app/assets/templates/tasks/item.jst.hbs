@@ -1,0 +1,35 @@
+<td>{{title}}</td>
+<td>
+  {{#if latest_time}} 
+    {{round latest_time}} seconds 
+  {{else}} 
+    {{#if running}}
+      Running 
+    {{else}}
+      --
+    {{/if}}
+  {{/if}}
+</td>
+<td>
+  {{#if average_time}} 
+    {{round average_time}} seconds 
+  {{else}} 
+    -- 
+  {{/if}}
+</td>
+<td>
+  {{#if total_time}} 
+    {{round total_time}} seconds 
+  {{else}} 
+      -- 
+  {{/if}}
+</td>
+<td>{{#if run_count}} {{run_count}} {{/if}}</td>
+<td>
+  {{#if running}}
+    <button class="complete btn btn-success">Complete</button>
+  {{else}}
+    <button class="start btn btn-success">Start</button>
+  {{/if}}
+  <button class="delete btn btn-danger">Delete</button>
+</td>

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  task_id: 1
+  completed_at: 2012-03-27 19:02:28
+
+two:
+  task_id: 1
+  completed_at: 2012-03-27 19:02:28
