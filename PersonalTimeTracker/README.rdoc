@@ -1,3 +1,1 @@
-== Personal timetracker challenge
-
 A prototype for the personal timetracker challenge
