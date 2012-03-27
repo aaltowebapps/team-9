@@ -1,4 +1,5 @@
 class PersonalTimeTracker.Models.Task extends Backbone.Model
+  urlRoot: "/api/tasks"
   
   time: ->
     if @get("completed_at") && @get("started_at")
