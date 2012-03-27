@@ -23,7 +23,9 @@ class PersonalTimeTracker.Views.TaskItem extends Backbone.View
       type: "POST"
       url: "/api/tasks/" + @model.get("id") + "/start"
     ).done (data) =>
-      @model = new PersonalTimeTracker.Models.Task(data)
+      console.log @model
+      @model.set(data)
+      console.log @model
       @render()
 
   stop: (event) ->
@@ -31,8 +33,9 @@ class PersonalTimeTracker.Views.TaskItem extends Backbone.View
       type: "POST"
       url: "/api/tasks/" + @model.get("id") + "/stop"
     ).done (data) =>
-      @model = new PersonalTimeTracker.Models.Task(data)
+      @model.set(data)
       @render()
+
 
 
   Handlebars.registerHelper "round", (number) ->
