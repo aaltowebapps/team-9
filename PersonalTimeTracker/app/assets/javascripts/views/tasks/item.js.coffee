@@ -11,7 +11,6 @@ class PersonalTimeTracker.Views.TaskItem extends Backbone.View
     @model.on("reset", @render, this)
 
   render: ->
-    console.log @model
     @$el.html(@template(@model.toJSON()))
     @
 
