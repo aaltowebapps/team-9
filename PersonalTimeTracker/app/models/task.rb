@@ -27,13 +27,14 @@ class Task < ActiveRecord::Base
   end
 
   def total_time
+    return nil unless run_count > 0
     completed_runs.reduce(0) do |sum, value|
       sum + value.run_time
     end
   end
 
   def average_time
-    total_time / completed_runs.count if completed_runs.count > 0
+    total_time / run_count if run_count > 0
   end
 
   def latest_time
