@@ -11,6 +11,7 @@ HTML5 course status report of week 13
           Technology was found but it was noted to be too different,
           so we will get a brand new contract paper from the web
           service provider to be undersigned. AP continues.
+          Web services API specs distributed to other team members. 
 
 - AP/Kai: Windows Phone browser's HTML5 touch API support matter 
           examined. Due to the findings, we are currently planning
@@ -32,21 +33,19 @@ HTML5 course status report of week 13
           related) coding effort.
           AP done and closed.
 
-          From now on, Kai will write the weekly status reports in a
-          combined culumative file instead of separate files. AP done.
+- From now on, Kai will write the weekly status reports in a
+  combined culumative file instead of separate files.
 
-- For more details, see the 2012-03-26 team 9 meeting minutes in
-  the file.
+- For more teamwork details, see the 2012-03-26 team 9 meeting
+  minutes in the file.
 
 Coming in week 14:
 ==================
 
 - AP/Whole team: Individual work to continue in the agreed
                  specialized areas.
-
 - AP/Kai: Web services access rights: A contract form is to be
           received in the near future for undersigning.
-
 - AP/Mikael: Development environment to be established.
 
 
