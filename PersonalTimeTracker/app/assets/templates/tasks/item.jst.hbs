@@ -1,7 +1,7 @@
 <td>{{title}}</td>
 <td>
   {{#if latest_time}} 
-    {{round latest_time}} seconds 
+    {{latest_time}} 
   {{else}} 
     {{#if running}}
       Running 
@@ -12,14 +12,14 @@
 </td>
 <td>
   {{#if average_time}} 
-    {{round average_time}} seconds 
+    {{average_time}} 
   {{else}} 
     -- 
   {{/if}}
 </td>
 <td>
   {{#if total_time}} 
-    {{round total_time}} seconds 
+    {{total_time}} 
   {{else}} 
       -- 
   {{/if}}
