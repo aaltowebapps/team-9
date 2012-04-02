@@ -36,6 +36,12 @@
           $("#save_server").bind("click", function(e) {
             e.preventDefault();
           });
+          navigator.geolocation.getCurrentPosition(function(position) {  
+            x = position.coords.latitude;
+            y = position.coords.longitude;
+            console.log(x, y);  
+            ctx.fillText(x + ", " + y, 50,100);
+          });
         })
       //]]>
     </script>
@@ -64,5 +70,6 @@
         </div>
       </div>
     </div>
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
 </html>
