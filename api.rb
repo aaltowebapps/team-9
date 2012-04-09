@@ -10,19 +10,21 @@ class API < Sinatra::Base
   SETTINGS = YAML::load(File.open("settings.yml"))
   WS_URL = "http://stp.gofore.com/sujuvuus/ws/"
 
-  types = %w(journeyTime trafficFluency dayData averageDayData lamData freeFlowSpeeds roadWeather roadStationStatuses cameraPresets)
+  types = %w(journey_time traffic_fluency day_data average_day_data lam_data free_flow_speeds road_weather road_station_statuses camera_presets)
+
+  get "/" do
+    types
+  end
 
   types.each do |type|
 
-    type_underscored = type.underscore.to_sym
-
-    get "/#{type_underscored}" do
+    get "/#{type}" do
       client = Savon::Client.new do
-        wsdl.document = "#{WS_URL + type}?wsdl"
+        wsdl.document = "#{WS_URL + type.camelize(:lower)}?wsdl"
         http.auth.basic(SETTINGS["username"], SETTINGS["password"])
       end
 
-      response = client.request(type_underscored)
+      response = client.request(type)
 
       content_type :json
       response.to_json
