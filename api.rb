@@ -13,7 +13,7 @@ class API < Sinatra::Base
   types = %w(journey_time traffic_fluency day_data average_day_data lam_data free_flow_speeds road_weather road_station_statuses camera_presets)
 
   get "/" do
-    types
+    types.join(" ")
   end
 
   types.each do |type|
