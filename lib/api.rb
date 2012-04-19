@@ -10,7 +10,7 @@ class API < Sinatra::Base
   SETTINGS = YAML::load(File.open("settings.yml"))
   WS_URL = "http://stp.gofore.com/sujuvuus/ws/"
 
-  types = %w(journey_time traffic_fluency day_data average_day_data lam_data free_flow_speeds road_weather road_station_statuses camera_presets)
+  types = %w(journey_time traffic_fluency lam_data free_flow_speeds road_weather road_station_statuses camera_presets)
   redis = Redis.new
 
   before do
