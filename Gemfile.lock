@@ -20,6 +20,7 @@ GEM
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
+    redis (2.2.2)
     savon (0.9.9)
       akami (~> 1.0)
       builder (>= 2.1.2)
@@ -49,6 +50,7 @@ DEPENDENCIES
   active_support
   i18n
   json
+  redis
   savon
   shotgun
   sinatra
