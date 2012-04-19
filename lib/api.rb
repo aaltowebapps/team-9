@@ -24,18 +24,19 @@ class API < Sinatra::Base
   types.each do |type|
     get "/" + type do
       unless (response = redis.get(type))
-        response = savon_client.request(type).to_json
+        response = savon_request(type).to_json
         redis.set(type, response)
       end
       response
     end
   end
 
-  def savon_client
-    Savon::Client.new do
+  def savon_request(type)
+    client = Savon::Client.new do
       wsdl.document = "#{WS_URL + type.camelize(:lower)}?wsdl"
       http.auth.basic(SETTINGS["username"], SETTINGS["password"])
     end
+    client.request(type)
   end
 
 end
