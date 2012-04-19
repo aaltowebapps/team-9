@@ -7,10 +7,13 @@ GEM
     akami (1.0.0)
       gyoku (>= 0.4.0)
     builder (3.0.0)
+    daemons (1.1.8)
+    eventmachine (0.12.10)
     gyoku (0.4.4)
       builder (>= 2.1.2)
     httpi (0.9.6)
       rack
+    i18n (0.6.0)
     json (1.6.6)
     nokogiri (1.5.2)
     nori (1.1.0)
@@ -31,6 +34,10 @@ GEM
       rack (~> 1.3, >= 1.3.6)
       rack-protection (~> 1.2)
       tilt (~> 1.3, >= 1.3.3)
+    thin (1.3.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
     tilt (1.3.3)
     wasabi (2.1.0)
       nokogiri (>= 1.4.0)
@@ -40,7 +47,9 @@ PLATFORMS
 
 DEPENDENCIES
   active_support
+  i18n
   json
   savon
   shotgun
   sinatra
+  thin
