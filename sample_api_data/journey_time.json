@@ -1,0 +1,4989 @@
+{
+    "journey_time_response": {
+        "timestamp": {
+            "utc": "2012-04-19T19:56:47+00:00",
+            "localtime": "2012-04-19T22:56:47+03:00"
+        },
+        "laststaticdataupdate": "2010-09-07T09:38:09+00:00",
+        "linkdynamicdata": {
+            "linkstat": [{
+                "linkno": "0",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:33:00+00:00",
+                    "localtime": "2012-04-19T22:33:00+03:00"
+                },
+                "medianjourneytime": "882",
+                "nobs": "2"
+            }, {
+                "linkno": "1",
+                "measurementtime": {
+                    "utc": "2012-04-18T16:00:00+00:00",
+                    "localtime": "2012-04-18T19:00:00+03:00"
+                },
+                "medianjourneytime": "401",
+                "nobs": "1"
+            }, {
+                "linkno": "4",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:52:00+00:00",
+                    "localtime": "2012-04-19T22:52:00+03:00"
+                },
+                "medianjourneytime": "314",
+                "nobs": "1"
+            }, {
+                "linkno": "5",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "325",
+                "nobs": "4"
+            }, {
+                "linkno": "6",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "313",
+                "nobs": "6"
+            }, {
+                "linkno": "7",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "298",
+                "nobs": "9"
+            }, {
+                "linkno": "8",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "192",
+                "nobs": "1"
+            }, {
+                "linkno": "9",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "177",
+                "nobs": "1"
+            }, {
+                "linkno": "10",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:50:00+00:00",
+                    "localtime": "2012-04-19T22:50:00+03:00"
+                },
+                "medianjourneytime": "111",
+                "nobs": "1"
+            }, {
+                "linkno": "11",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:45:00+00:00",
+                    "localtime": "2012-04-19T22:45:00+03:00"
+                },
+                "medianjourneytime": "132",
+                "nobs": "2"
+            }, {
+                "linkno": "12",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "309",
+                "nobs": "4"
+            }, {
+                "linkno": "13",
+                "measurementtime": {
+                    "utc": "2009-10-05T06:35:00+00:00",
+                    "localtime": "2009-10-05T09:35:00+03:00"
+                },
+                "medianjourneytime": "463",
+                "nobs": "-1"
+            }, {
+                "linkno": "14",
+                "measurementtime": {
+                    "utc": "2011-10-12T06:43:00+00:00",
+                    "localtime": "2011-10-12T09:43:00+03:00"
+                },
+                "medianjourneytime": "423",
+                "nobs": "1"
+            }, {
+                "linkno": "15",
+                "measurementtime": {
+                    "utc": "2011-10-11T07:05:00+00:00",
+                    "localtime": "2011-10-11T10:05:00+03:00"
+                },
+                "medianjourneytime": "434",
+                "nobs": "1"
+            }, {
+                "linkno": "16",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "314",
+                "nobs": "1"
+            }, {
+                "linkno": "17",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:45:00+00:00",
+                    "localtime": "2012-04-19T22:45:00+03:00"
+                },
+                "medianjourneytime": "307",
+                "nobs": "2"
+            }, {
+                "linkno": "18",
+                "measurementtime": {
+                    "utc": "2009-10-05T06:31:00+00:00",
+                    "localtime": "2009-10-05T09:31:00+03:00"
+                },
+                "medianjourneytime": "630",
+                "nobs": "-1"
+            }, {
+                "linkno": "19",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:24:00+00:00",
+                    "localtime": "2012-04-19T22:24:00+03:00"
+                },
+                "medianjourneytime": "361",
+                "nobs": "1"
+            }, {
+                "linkno": "20",
+                "measurementtime": {
+                    "utc": "2011-10-11T06:56:00+00:00",
+                    "localtime": "2011-10-11T09:56:00+03:00"
+                },
+                "medianjourneytime": "377",
+                "nobs": "1"
+            }, {
+                "linkno": "21",
+                "measurementtime": {
+                    "utc": "2011-10-12T06:42:00+00:00",
+                    "localtime": "2011-10-12T09:42:00+03:00"
+                },
+                "medianjourneytime": "490",
+                "nobs": "1"
+            }, {
+                "linkno": "22",
+                "measurementtime": {
+                    "utc": "2009-10-05T06:34:00+00:00",
+                    "localtime": "2009-10-05T09:34:00+03:00"
+                },
+                "medianjourneytime": "602",
+                "nobs": "-1"
+            }, {
+                "linkno": "23",
+                "measurementtime": {
+                    "utc": "2009-10-04T16:40:00+00:00",
+                    "localtime": "2009-10-04T19:40:00+03:00"
+                },
+                "medianjourneytime": "404",
+                "nobs": "-1"
+            }, {
+                "linkno": "24",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:50:00+00:00",
+                    "localtime": "2012-04-19T22:50:00+03:00"
+                },
+                "medianjourneytime": "219",
+                "nobs": "1"
+            }, {
+                "linkno": "25",
+                "measurementtime": {
+                    "utc": "2009-05-28T10:15:00+00:00",
+                    "localtime": "2009-05-28T13:15:00+03:00"
+                },
+                "medianjourneytime": "233",
+                "nobs": "-1"
+            }, {
+                "linkno": "26",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "175",
+                "nobs": "5"
+            }, {
+                "linkno": "27",
+                "measurementtime": {
+                    "utc": "2009-05-28T10:01:00+00:00",
+                    "localtime": "2009-05-28T13:01:00+03:00"
+                },
+                "medianjourneytime": "208",
+                "nobs": "-1"
+            }, {
+                "linkno": "28",
+                "measurementtime": {
+                    "utc": "2012-04-18T18:04:00+00:00",
+                    "localtime": "2012-04-18T21:04:00+03:00"
+                },
+                "medianjourneytime": "2256",
+                "nobs": "1"
+            }, {
+                "linkno": "29",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:14:00+00:00",
+                    "localtime": "2012-04-19T21:14:00+03:00"
+                },
+                "medianjourneytime": "228",
+                "nobs": "1"
+            }, {
+                "linkno": "30",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "66",
+                "nobs": "1"
+            }, {
+                "linkno": "31",
+                "measurementtime": {
+                    "utc": "2009-05-28T09:34:00+00:00",
+                    "localtime": "2009-05-28T12:34:00+03:00"
+                },
+                "medianjourneytime": "1122",
+                "nobs": "-1"
+            }, {
+                "linkno": "32",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "330",
+                "nobs": "6"
+            }, {
+                "linkno": "33",
+                "measurementtime": {
+                    "utc": "2009-05-28T09:59:00+00:00",
+                    "localtime": "2009-05-28T12:59:00+03:00"
+                },
+                "medianjourneytime": "381",
+                "nobs": "-1"
+            }, {
+                "linkno": "34",
+                "measurementtime": {
+                    "utc": "2011-10-12T06:42:00+00:00",
+                    "localtime": "2011-10-12T09:42:00+03:00"
+                },
+                "medianjourneytime": "2826",
+                "nobs": "1"
+            }, {
+                "linkno": "35",
+                "measurementtime": {
+                    "utc": "2011-10-11T06:18:00+00:00",
+                    "localtime": "2011-10-11T09:18:00+03:00"
+                },
+                "medianjourneytime": "509",
+                "nobs": "1"
+            }, {
+                "linkno": "40",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "238",
+                "nobs": "3"
+            }, {
+                "linkno": "41",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "207",
+                "nobs": "5"
+            }, {
+                "linkno": "42",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "234",
+                "nobs": "3"
+            }, {
+                "linkno": "43",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "219",
+                "nobs": "9"
+            }, {
+                "linkno": "44",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:50:00+00:00",
+                    "localtime": "2012-04-19T22:50:00+03:00"
+                },
+                "medianjourneytime": "134",
+                "nobs": "1"
+            }, {
+                "linkno": "45",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "142",
+                "nobs": "3"
+            }, {
+                "linkno": "46",
+                "measurementtime": {
+                    "utc": "2012-03-23T00:07:00+00:00",
+                    "localtime": "2012-03-23T02:07:00+02:00"
+                },
+                "medianjourneytime": "285",
+                "nobs": "1"
+            }, {
+                "linkno": "47",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:27:00+00:00",
+                    "localtime": "2012-04-19T22:27:00+03:00"
+                },
+                "medianjourneytime": "293",
+                "nobs": "1"
+            }, {
+                "linkno": "48",
+                "measurementtime": {
+                    "utc": "2012-03-22T18:13:00+00:00",
+                    "localtime": "2012-03-22T20:13:00+02:00"
+                },
+                "medianjourneytime": "1133",
+                "nobs": "1"
+            }, {
+                "linkno": "49",
+                "measurementtime": {
+                    "utc": "2012-04-19T16:37:00+00:00",
+                    "localtime": "2012-04-19T19:37:00+03:00"
+                },
+                "medianjourneytime": "1096",
+                "nobs": "1"
+            }, {
+                "linkno": "50",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:13:00+00:00",
+                    "localtime": "2012-04-19T22:13:00+03:00"
+                },
+                "medianjourneytime": "313",
+                "nobs": "1"
+            }, {
+                "linkno": "51",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "357",
+                "nobs": "2"
+            }, {
+                "linkno": "52",
+                "measurementtime": {
+                    "utc": "2012-03-23T01:06:00+00:00",
+                    "localtime": "2012-03-23T03:06:00+02:00"
+                },
+                "medianjourneytime": "393",
+                "nobs": "1"
+            }, {
+                "linkno": "53",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:21:00+00:00",
+                    "localtime": "2012-04-19T22:21:00+03:00"
+                },
+                "medianjourneytime": "414",
+                "nobs": "1"
+            }, {
+                "linkno": "54",
+                "measurementtime": {
+                    "utc": "2012-04-17T01:55:00+00:00",
+                    "localtime": "2012-04-17T04:55:00+03:00"
+                },
+                "medianjourneytime": "1515",
+                "nobs": "1"
+            }, {
+                "linkno": "55",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:26:00+00:00",
+                    "localtime": "2012-04-19T21:26:00+03:00"
+                },
+                "medianjourneytime": "412",
+                "nobs": "1"
+            }, {
+                "linkno": "58",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "213",
+                "nobs": "1"
+            }, {
+                "linkno": "59",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "213",
+                "nobs": "2"
+            }, {
+                "linkno": "60",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "243",
+                "nobs": "3"
+            }, {
+                "linkno": "61",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "293",
+                "nobs": "1"
+            }, {
+                "linkno": "62",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "326",
+                "nobs": "5"
+            }, {
+                "linkno": "63",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:45:00+00:00",
+                    "localtime": "2012-04-19T22:45:00+03:00"
+                },
+                "medianjourneytime": "362",
+                "nobs": "2"
+            }, {
+                "linkno": "68",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "422",
+                "nobs": "4"
+            }, {
+                "linkno": "69",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:45:00+00:00",
+                    "localtime": "2012-04-19T22:45:00+03:00"
+                },
+                "medianjourneytime": "434",
+                "nobs": "2"
+            }, {
+                "linkno": "70",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "551",
+                "nobs": "5"
+            }, {
+                "linkno": "71",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:52:00+00:00",
+                    "localtime": "2012-04-19T22:52:00+03:00"
+                },
+                "medianjourneytime": "494",
+                "nobs": "1"
+            }, {
+                "linkno": "76",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "146",
+                "nobs": "7"
+            }, {
+                "linkno": "77",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "153",
+                "nobs": "8"
+            }, {
+                "linkno": "78",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "123",
+                "nobs": "1"
+            }, {
+                "linkno": "79",
+                "measurementtime": {
+                    "utc": "2009-05-27T12:39:00+00:00",
+                    "localtime": "2009-05-27T15:39:00+03:00"
+                },
+                "medianjourneytime": "2687",
+                "nobs": "-1"
+            }, {
+                "linkno": "80",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "120",
+                "nobs": "4"
+            }, {
+                "linkno": "81",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "126",
+                "nobs": "4"
+            }, {
+                "linkno": "82",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "176",
+                "nobs": "6"
+            }, {
+                "linkno": "83",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "176",
+                "nobs": "4"
+            }, {
+                "linkno": "84",
+                "measurementtime": {
+                    "utc": "2012-04-17T14:36:00+00:00",
+                    "localtime": "2012-04-17T17:36:00+03:00"
+                },
+                "medianjourneytime": "227",
+                "nobs": "1"
+            }, {
+                "linkno": "85",
+                "measurementtime": {
+                    "utc": "2012-04-18T12:21:00+00:00",
+                    "localtime": "2012-04-18T15:21:00+03:00"
+                },
+                "medianjourneytime": "3034",
+                "nobs": "1"
+            }, {
+                "linkno": "86",
+                "measurementtime": {
+                    "utc": "2012-04-18T18:32:00+00:00",
+                    "localtime": "2012-04-18T21:32:00+03:00"
+                },
+                "medianjourneytime": "103",
+                "nobs": "1"
+            }, {
+                "linkno": "87",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:43:00+00:00",
+                    "localtime": "2012-04-19T22:43:00+03:00"
+                },
+                "medianjourneytime": "117",
+                "nobs": "1"
+            }, {
+                "linkno": "88",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "304",
+                "nobs": "4"
+            }, {
+                "linkno": "89",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "384",
+                "nobs": "1"
+            }, {
+                "linkno": "90",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "614",
+                "nobs": "1"
+            }, {
+                "linkno": "91",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "412",
+                "nobs": "5"
+            }, {
+                "linkno": "92",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:51:00+00:00",
+                    "localtime": "2012-04-19T21:51:00+03:00"
+                },
+                "medianjourneytime": "1599",
+                "nobs": "1"
+            }, {
+                "linkno": "93",
+                "measurementtime": {
+                    "utc": "2012-04-19T16:26:00+00:00",
+                    "localtime": "2012-04-19T19:26:00+03:00"
+                },
+                "medianjourneytime": "1644",
+                "nobs": "1"
+            }, {
+                "linkno": "94",
+                "measurementtime": {
+                    "utc": "2012-04-19T16:59:00+00:00",
+                    "localtime": "2012-04-19T19:59:00+03:00"
+                },
+                "medianjourneytime": "128",
+                "nobs": "1"
+            }, {
+                "linkno": "95",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "143",
+                "nobs": "4"
+            }, {
+                "linkno": "96",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "246",
+                "nobs": "6"
+            }, {
+                "linkno": "97",
+                "measurementtime": {
+                    "utc": "2012-04-19T10:19:00+00:00",
+                    "localtime": "2012-04-19T13:19:00+03:00"
+                },
+                "medianjourneytime": "254",
+                "nobs": "1"
+            }, {
+                "linkno": "98",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "269",
+                "nobs": "1"
+            }, {
+                "linkno": "99",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "864",
+                "nobs": "1"
+            }, {
+                "linkno": "100",
+                "measurementtime": {
+                    "utc": "2012-03-23T01:11:00+00:00",
+                    "localtime": "2012-03-23T03:11:00+02:00"
+                },
+                "medianjourneytime": "135",
+                "nobs": "1"
+            }, {
+                "linkno": "101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:27:00+00:00",
+                    "localtime": "2012-04-19T22:27:00+03:00"
+                },
+                "medianjourneytime": "129",
+                "nobs": "1"
+            }, {
+                "linkno": "104",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "77",
+                "nobs": "1"
+            }, {
+                "linkno": "105",
+                "measurementtime": {
+                    "utc": "2012-04-19T10:18:00+00:00",
+                    "localtime": "2012-04-19T13:18:00+03:00"
+                },
+                "medianjourneytime": "80",
+                "nobs": "1"
+            }, {
+                "linkno": "106",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:30:00+00:00",
+                    "localtime": "2012-04-19T21:30:00+03:00"
+                },
+                "medianjourneytime": "239",
+                "nobs": "1"
+            }, {
+                "linkno": "107",
+                "measurementtime": {
+                    "utc": "2012-04-19T08:48:00+00:00",
+                    "localtime": "2012-04-19T11:48:00+03:00"
+                },
+                "medianjourneytime": "247",
+                "nobs": "1"
+            }, {
+                "linkno": "108",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "769",
+                "nobs": "2"
+            }, {
+                "linkno": "109",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:45:00+00:00",
+                    "localtime": "2012-04-19T22:45:00+03:00"
+                },
+                "medianjourneytime": "401",
+                "nobs": "1"
+            }, {
+                "linkno": "110",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:45:00+00:00",
+                    "localtime": "2012-04-19T22:45:00+03:00"
+                },
+                "medianjourneytime": "238",
+                "nobs": "1"
+            }, {
+                "linkno": "111",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:43:00+00:00",
+                    "localtime": "2012-04-19T22:43:00+03:00"
+                },
+                "medianjourneytime": "324",
+                "nobs": "1"
+            }, {
+                "linkno": "112",
+                "measurementtime": {
+                    "utc": "2012-04-18T15:26:00+00:00",
+                    "localtime": "2012-04-18T18:26:00+03:00"
+                },
+                "medianjourneytime": "1567",
+                "nobs": "1"
+            }, {
+                "linkno": "113",
+                "measurementtime": {
+                    "utc": "2012-04-19T14:26:00+00:00",
+                    "localtime": "2012-04-19T17:26:00+03:00"
+                },
+                "medianjourneytime": "1797",
+                "nobs": "1"
+            }, {
+                "linkno": "114",
+                "measurementtime": {
+                    "utc": "2012-04-19T16:55:00+00:00",
+                    "localtime": "2012-04-19T19:55:00+03:00"
+                },
+                "medianjourneytime": "213",
+                "nobs": "1"
+            }, {
+                "linkno": "115",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:45:00+00:00",
+                    "localtime": "2012-04-19T22:45:00+03:00"
+                },
+                "medianjourneytime": "175",
+                "nobs": "4"
+            }, {
+                "linkno": "116",
+                "measurementtime": {
+                    "utc": "2011-10-11T06:55:00+00:00",
+                    "localtime": "2011-10-11T09:55:00+03:00"
+                },
+                "medianjourneytime": "278",
+                "nobs": "1"
+            }, {
+                "linkno": "117",
+                "measurementtime": {
+                    "utc": "2011-10-12T06:43:00+00:00",
+                    "localtime": "2011-10-12T09:43:00+03:00"
+                },
+                "medianjourneytime": "367",
+                "nobs": "1"
+            }, {
+                "linkno": "126",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "265",
+                "nobs": "3"
+            }, {
+                "linkno": "127",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "270",
+                "nobs": "1"
+            }, {
+                "linkno": "128",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "386",
+                "nobs": "2"
+            }, {
+                "linkno": "129",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "364",
+                "nobs": "2"
+            }, {
+                "linkno": "130",
+                "measurementtime": {
+                    "utc": "2012-04-11T05:43:00+00:00",
+                    "localtime": "2012-04-11T08:43:00+03:00"
+                },
+                "medianjourneytime": "947",
+                "nobs": "1"
+            }, {
+                "linkno": "131",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "434",
+                "nobs": "2"
+            }, {
+                "linkno": "132",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "826",
+                "nobs": "3"
+            }, {
+                "linkno": "133",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "696",
+                "nobs": "1"
+            }, {
+                "linkno": "134",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "513",
+                "nobs": "1"
+            }, {
+                "linkno": "135",
+                "measurementtime": {
+                    "utc": "2012-04-19T10:19:00+00:00",
+                    "localtime": "2012-04-19T13:19:00+03:00"
+                },
+                "medianjourneytime": "633",
+                "nobs": "1"
+            }, {
+                "linkno": "136",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "505",
+                "nobs": "3"
+            }, {
+                "linkno": "137",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "1056",
+                "nobs": "1"
+            }, {
+                "linkno": "138",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:43:00+00:00",
+                    "localtime": "2012-04-19T22:43:00+03:00"
+                },
+                "medianjourneytime": "388",
+                "nobs": "1"
+            }, {
+                "linkno": "139",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:44:00+00:00",
+                    "localtime": "2012-04-19T22:44:00+03:00"
+                },
+                "medianjourneytime": "409",
+                "nobs": "1"
+            }, {
+                "linkno": "142",
+                "measurementtime": {
+                    "utc": "2012-01-30T12:11:00+00:00",
+                    "localtime": "2012-01-30T14:11:00+02:00"
+                },
+                "medianjourneytime": "129",
+                "nobs": "1"
+            }, {
+                "linkno": "143",
+                "measurementtime": {
+                    "utc": "2012-02-11T10:52:00+00:00",
+                    "localtime": "2012-02-11T12:52:00+02:00"
+                },
+                "medianjourneytime": "394",
+                "nobs": "1"
+            }, {
+                "linkno": "144",
+                "measurementtime": {
+                    "utc": "2012-01-18T07:51:00+00:00",
+                    "localtime": "2012-01-18T09:51:00+02:00"
+                },
+                "medianjourneytime": "3027",
+                "nobs": "1"
+            }, {
+                "linkno": "145",
+                "measurementtime": {
+                    "utc": "2012-02-10T14:25:00+00:00",
+                    "localtime": "2012-02-10T16:25:00+02:00"
+                },
+                "medianjourneytime": "3126",
+                "nobs": "1"
+            }, {
+                "linkno": "146",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "564",
+                "nobs": "1"
+            }, {
+                "linkno": "147",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "635",
+                "nobs": "1"
+            }, {
+                "linkno": "148",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:54:00+00:00",
+                    "localtime": "2012-04-19T22:54:00+03:00"
+                },
+                "medianjourneytime": "802",
+                "nobs": "1"
+            }, {
+                "linkno": "149",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "582",
+                "nobs": "3"
+            }, {
+                "linkno": "150",
+                "measurementtime": {
+                    "utc": "2012-02-10T10:39:00+00:00",
+                    "localtime": "2012-02-10T12:39:00+02:00"
+                },
+                "medianjourneytime": "133",
+                "nobs": "1"
+            }, {
+                "linkno": "151",
+                "measurementtime": {
+                    "utc": "2012-02-12T13:01:00+00:00",
+                    "localtime": "2012-02-12T15:01:00+02:00"
+                },
+                "medianjourneytime": "157",
+                "nobs": "1"
+            }, {
+                "linkno": "152",
+                "measurementtime": {
+                    "utc": "2012-02-12T13:19:00+00:00",
+                    "localtime": "2012-02-12T15:19:00+02:00"
+                },
+                "medianjourneytime": "358",
+                "nobs": "1"
+            }, {
+                "linkno": "153",
+                "measurementtime": {
+                    "utc": "2012-02-08T12:04:00+00:00",
+                    "localtime": "2012-02-08T14:04:00+02:00"
+                },
+                "medianjourneytime": "315",
+                "nobs": "1"
+            }, {
+                "linkno": "154",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:08:00+00:00",
+                    "localtime": "2012-03-29T14:08:00+03:00"
+                },
+                "medianjourneytime": "248",
+                "nobs": "2"
+            }, {
+                "linkno": "155",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:24:00+00:00",
+                    "localtime": "2012-03-29T14:24:00+03:00"
+                },
+                "medianjourneytime": "875",
+                "nobs": "1"
+            }, {
+                "linkno": "156",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:18:00+00:00",
+                    "localtime": "2012-04-19T21:18:00+03:00"
+                },
+                "medianjourneytime": "301",
+                "nobs": "1"
+            }, {
+                "linkno": "157",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:33:00+00:00",
+                    "localtime": "2012-04-19T22:33:00+03:00"
+                },
+                "medianjourneytime": "267",
+                "nobs": "1"
+            }, {
+                "linkno": "158",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "444",
+                "nobs": "2"
+            }, {
+                "linkno": "159",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "391",
+                "nobs": "1"
+            }, {
+                "linkno": "160",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:44:00+00:00",
+                    "localtime": "2012-04-19T22:44:00+03:00"
+                },
+                "medianjourneytime": "483",
+                "nobs": "1"
+            }, {
+                "linkno": "161",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:42:00+00:00",
+                    "localtime": "2012-04-19T22:42:00+03:00"
+                },
+                "medianjourneytime": "532",
+                "nobs": "1"
+            }, {
+                "linkno": "162",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:31:00+00:00",
+                    "localtime": "2012-04-19T22:31:00+03:00"
+                },
+                "medianjourneytime": "1816",
+                "nobs": "1"
+            }, {
+                "linkno": "163",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:30:00+00:00",
+                    "localtime": "2012-04-19T22:30:00+03:00"
+                },
+                "medianjourneytime": "258",
+                "nobs": "1"
+            }, {
+                "linkno": "164",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:45:00+00:00",
+                    "localtime": "2012-04-19T22:45:00+03:00"
+                },
+                "medianjourneytime": "189",
+                "nobs": "1"
+            }, {
+                "linkno": "165",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:33:00+00:00",
+                    "localtime": "2012-04-19T22:33:00+03:00"
+                },
+                "medianjourneytime": "209",
+                "nobs": "1"
+            }, {
+                "linkno": "166",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:05:00+00:00",
+                    "localtime": "2012-03-29T14:05:00+03:00"
+                },
+                "medianjourneytime": "1227",
+                "nobs": "1"
+            }, {
+                "linkno": "167",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:07:00+00:00",
+                    "localtime": "2012-03-29T14:07:00+03:00"
+                },
+                "medianjourneytime": "335",
+                "nobs": "1"
+            }, {
+                "linkno": "168",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:47:00+00:00",
+                    "localtime": "2012-03-29T14:47:00+03:00"
+                },
+                "medianjourneytime": "2623",
+                "nobs": "1"
+            }, {
+                "linkno": "169",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:10:00+00:00",
+                    "localtime": "2012-03-29T14:10:00+03:00"
+                },
+                "medianjourneytime": "230",
+                "nobs": "1"
+            }, {
+                "linkno": "172",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:24:00+00:00",
+                    "localtime": "2012-04-19T22:24:00+03:00"
+                },
+                "medianjourneytime": "171",
+                "nobs": "1"
+            }, {
+                "linkno": "173",
+                "measurementtime": {
+                    "utc": "2012-04-19T15:56:00+00:00",
+                    "localtime": "2012-04-19T18:56:00+03:00"
+                },
+                "medianjourneytime": "218",
+                "nobs": "1"
+            }, {
+                "linkno": "174",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:28:00+00:00",
+                    "localtime": "2012-04-19T22:28:00+03:00"
+                },
+                "medianjourneytime": "263",
+                "nobs": "1"
+            }, {
+                "linkno": "175",
+                "measurementtime": {
+                    "utc": "2012-04-19T15:40:00+00:00",
+                    "localtime": "2012-04-19T18:40:00+03:00"
+                },
+                "medianjourneytime": "332",
+                "nobs": "1"
+            }, {
+                "linkno": "176",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:39:00+00:00",
+                    "localtime": "2012-04-19T22:39:00+03:00"
+                },
+                "medianjourneytime": "219",
+                "nobs": "1"
+            }, {
+                "linkno": "177",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:52:00+00:00",
+                    "localtime": "2012-04-19T22:52:00+03:00"
+                },
+                "medianjourneytime": "221",
+                "nobs": "1"
+            }, {
+                "linkno": "178",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:52:00+00:00",
+                    "localtime": "2012-04-19T22:52:00+03:00"
+                },
+                "medianjourneytime": "241",
+                "nobs": "2"
+            }, {
+                "linkno": "179",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:40:00+00:00",
+                    "localtime": "2012-04-19T21:40:00+03:00"
+                },
+                "medianjourneytime": "190",
+                "nobs": "1"
+            }, {
+                "linkno": "180",
+                "measurementtime": {
+                    "utc": "2009-05-18T07:33:00+00:00",
+                    "localtime": "2009-05-18T10:33:00+03:00"
+                },
+                "medianjourneytime": "1774",
+                "nobs": "-1"
+            }, {
+                "linkno": "181",
+                "measurementtime": {
+                    "utc": "2010-08-23T11:34:00+00:00",
+                    "localtime": "2010-08-23T14:34:00+03:00"
+                },
+                "medianjourneytime": "285",
+                "nobs": "1"
+            }, {
+                "linkno": "182",
+                "measurementtime": {
+                    "utc": "2009-12-14T12:08:00+00:00",
+                    "localtime": "2009-12-14T14:08:00+02:00"
+                },
+                "medianjourneytime": "1555",
+                "nobs": "-1"
+            }, {
+                "linkno": "183",
+                "measurementtime": {
+                    "utc": "2009-12-24T07:40:00+00:00",
+                    "localtime": "2009-12-24T09:40:00+02:00"
+                },
+                "medianjourneytime": "525",
+                "nobs": "-1"
+            }, {
+                "linkno": "184",
+                "measurementtime": {
+                    "utc": "2012-03-29T10:57:00+00:00",
+                    "localtime": "2012-03-29T13:57:00+03:00"
+                },
+                "medianjourneytime": "3078",
+                "nobs": "1"
+            }, {
+                "linkno": "185",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:35:00+00:00",
+                    "localtime": "2012-03-29T14:35:00+03:00"
+                },
+                "medianjourneytime": "1570",
+                "nobs": "1"
+            }, {
+                "linkno": "186",
+                "measurementtime": {
+                    "utc": "2012-02-12T12:41:00+00:00",
+                    "localtime": "2012-02-12T14:41:00+02:00"
+                },
+                "medianjourneytime": "403",
+                "nobs": "1"
+            }, {
+                "linkno": "187",
+                "measurementtime": {
+                    "utc": "2012-02-02T08:47:00+00:00",
+                    "localtime": "2012-02-02T10:47:00+02:00"
+                },
+                "medianjourneytime": "375",
+                "nobs": "1"
+            }, {
+                "linkno": "188",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:38:00+00:00",
+                    "localtime": "2012-03-29T14:38:00+03:00"
+                },
+                "medianjourneytime": "2049",
+                "nobs": "1"
+            }, {
+                "linkno": "189",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:10:00+00:00",
+                    "localtime": "2012-03-29T14:10:00+03:00"
+                },
+                "medianjourneytime": "546",
+                "nobs": "1"
+            }, {
+                "linkno": "190",
+                "measurementtime": {
+                    "utc": "2012-04-19T15:58:00+00:00",
+                    "localtime": "2012-04-19T18:58:00+03:00"
+                },
+                "medianjourneytime": "2235",
+                "nobs": "1"
+            }, {
+                "linkno": "191",
+                "measurementtime": {
+                    "utc": "2012-04-19T10:06:00+00:00",
+                    "localtime": "2012-04-19T13:06:00+03:00"
+                },
+                "medianjourneytime": "2255",
+                "nobs": "1"
+            }, {
+                "linkno": "192",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "440",
+                "nobs": "1"
+            }, {
+                "linkno": "193",
+                "measurementtime": {
+                    "utc": "2012-04-19T13:47:00+00:00",
+                    "localtime": "2012-04-19T16:47:00+03:00"
+                },
+                "medianjourneytime": "163",
+                "nobs": "1"
+            }, {
+                "linkno": "194",
+                "measurementtime": {
+                    "utc": "2009-05-26T15:50:00+00:00",
+                    "localtime": "2009-05-26T18:50:00+03:00"
+                },
+                "medianjourneytime": "1383",
+                "nobs": "-1"
+            }, {
+                "linkno": "195",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:05:00+00:00",
+                    "localtime": "2012-04-19T22:05:00+03:00"
+                },
+                "medianjourneytime": "989",
+                "nobs": "1"
+            }, {
+                "linkno": "196",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "350",
+                "nobs": "1"
+            }, {
+                "linkno": "197",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:33:00+00:00",
+                    "localtime": "2012-04-19T22:33:00+03:00"
+                },
+                "medianjourneytime": "339",
+                "nobs": "1"
+            }, {
+                "linkno": "198",
+                "measurementtime": {
+                    "utc": "2009-05-24T23:05:00+00:00",
+                    "localtime": "2009-05-25T02:05:00+03:00"
+                },
+                "medianjourneytime": "1740",
+                "nobs": "-1"
+            }, {
+                "linkno": "199",
+                "measurementtime": {
+                    "utc": "2009-05-27T08:30:00+00:00",
+                    "localtime": "2009-05-27T11:30:00+03:00"
+                },
+                "medianjourneytime": "547",
+                "nobs": "-1"
+            }, {
+                "linkno": "200",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:26:00+00:00",
+                    "localtime": "2012-03-29T14:26:00+03:00"
+                },
+                "medianjourneytime": "2368",
+                "nobs": "1"
+            }, {
+                "linkno": "201",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:10:00+00:00",
+                    "localtime": "2012-03-29T14:10:00+03:00"
+                },
+                "medianjourneytime": "374",
+                "nobs": "1"
+            }, {
+                "linkno": "202",
+                "measurementtime": {
+                    "utc": "2012-02-10T07:43:00+00:00",
+                    "localtime": "2012-02-10T09:43:00+02:00"
+                },
+                "medianjourneytime": "378",
+                "nobs": "1"
+            }, {
+                "linkno": "203",
+                "measurementtime": {
+                    "utc": "2012-02-11T13:30:00+00:00",
+                    "localtime": "2012-02-11T15:30:00+02:00"
+                },
+                "medianjourneytime": "428",
+                "nobs": "1"
+            }, {
+                "linkno": "204",
+                "measurementtime": {
+                    "utc": "2012-02-06T05:46:00+00:00",
+                    "localtime": "2012-02-06T07:46:00+02:00"
+                },
+                "medianjourneytime": "1041",
+                "nobs": "1"
+            }, {
+                "linkno": "205",
+                "measurementtime": {
+                    "utc": "2012-02-12T06:49:00+00:00",
+                    "localtime": "2012-02-12T08:49:00+02:00"
+                },
+                "medianjourneytime": "370",
+                "nobs": "1"
+            }, {
+                "linkno": "206",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:15:00+00:00",
+                    "localtime": "2012-03-29T14:15:00+03:00"
+                },
+                "medianjourneytime": "329",
+                "nobs": "1"
+            }, {
+                "linkno": "207",
+                "measurementtime": {
+                    "utc": "2012-03-29T10:48:00+00:00",
+                    "localtime": "2012-03-29T13:48:00+03:00"
+                },
+                "medianjourneytime": "327",
+                "nobs": "1"
+            }, {
+                "linkno": "208",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:22:00+00:00",
+                    "localtime": "2012-03-29T14:22:00+03:00"
+                },
+                "medianjourneytime": "762",
+                "nobs": "1"
+            }, {
+                "linkno": "209",
+                "measurementtime": {
+                    "utc": "2012-03-29T11:09:00+00:00",
+                    "localtime": "2012-03-29T14:09:00+03:00"
+                },
+                "medianjourneytime": "244",
+                "nobs": "1"
+            }, {
+                "linkno": "210",
+                "measurementtime": {
+                    "utc": "2012-02-09T15:49:00+00:00",
+                    "localtime": "2012-02-09T17:49:00+02:00"
+                },
+                "medianjourneytime": "639",
+                "nobs": "1"
+            }, {
+                "linkno": "211",
+                "measurementtime": {
+                    "utc": "2012-02-01T17:48:00+00:00",
+                    "localtime": "2012-02-01T19:48:00+02:00"
+                },
+                "medianjourneytime": "1730",
+                "nobs": "1"
+            }, {
+                "linkno": "212",
+                "measurementtime": {
+                    "utc": "2012-02-10T22:52:00+00:00",
+                    "localtime": "2012-02-11T00:52:00+02:00"
+                },
+                "medianjourneytime": "1324",
+                "nobs": "1"
+            }, {
+                "linkno": "213",
+                "measurementtime": {
+                    "utc": "2012-01-24T13:12:00+00:00",
+                    "localtime": "2012-01-24T15:12:00+02:00"
+                },
+                "medianjourneytime": "2373",
+                "nobs": "1"
+            }, {
+                "linkno": "214",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:22:00+00:00",
+                    "localtime": "2012-04-19T22:22:00+03:00"
+                },
+                "medianjourneytime": "775",
+                "nobs": "1"
+            }, {
+                "linkno": "215",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "1036",
+                "nobs": "1"
+            }, {
+                "linkno": "216",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:33:00+00:00",
+                    "localtime": "2012-04-19T22:33:00+03:00"
+                },
+                "medianjourneytime": "557",
+                "nobs": "1"
+            }, {
+                "linkno": "217",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "539",
+                "nobs": "1"
+            }, {
+                "linkno": "218",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "345",
+                "nobs": "3"
+            }, {
+                "linkno": "219",
+                "measurementtime": {
+                    "utc": "2009-10-05T06:36:00+00:00",
+                    "localtime": "2009-10-05T09:36:00+03:00"
+                },
+                "medianjourneytime": "921",
+                "nobs": "-1"
+            }, {
+                "linkno": "220",
+                "measurementtime": {
+                    "utc": "2012-04-17T14:45:00+00:00",
+                    "localtime": "2012-04-17T17:45:00+03:00"
+                },
+                "medianjourneytime": "415",
+                "nobs": "1"
+            }, {
+                "linkno": "221",
+                "measurementtime": {
+                    "utc": "2012-04-19T12:26:00+00:00",
+                    "localtime": "2012-04-19T15:26:00+03:00"
+                },
+                "medianjourneytime": "323",
+                "nobs": "1"
+            }, {
+                "linkno": "222",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "484",
+                "nobs": "1"
+            }, {
+                "linkno": "223",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "467",
+                "nobs": "1"
+            }, {
+                "linkno": "224",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:26:00+00:00",
+                    "localtime": "2012-04-19T21:26:00+03:00"
+                },
+                "medianjourneytime": "485",
+                "nobs": "1"
+            }, {
+                "linkno": "225",
+                "measurementtime": {
+                    "utc": "2012-04-19T12:23:00+00:00",
+                    "localtime": "2012-04-19T15:23:00+03:00"
+                },
+                "medianjourneytime": "495",
+                "nobs": "1"
+            }, {
+                "linkno": "226",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "471",
+                "nobs": "1"
+            }, {
+                "linkno": "227",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "420",
+                "nobs": "1"
+            }, {
+                "linkno": "228",
+                "measurementtime": {
+                    "utc": "2010-05-21T16:38:00+00:00",
+                    "localtime": "2010-05-21T19:38:00+03:00"
+                },
+                "medianjourneytime": "447",
+                "nobs": "1"
+            }, {
+                "linkno": "229",
+                "measurementtime": {
+                    "utc": "2010-08-08T18:23:00+00:00",
+                    "localtime": "2010-08-08T21:23:00+03:00"
+                },
+                "medianjourneytime": "374",
+                "nobs": "1"
+            }, {
+                "linkno": "230",
+                "measurementtime": {
+                    "utc": "2012-04-19T15:21:00+00:00",
+                    "localtime": "2012-04-19T18:21:00+03:00"
+                },
+                "medianjourneytime": "3034",
+                "nobs": "1"
+            }, {
+                "linkno": "231",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "2148",
+                "nobs": "1"
+            }, {
+                "linkno": "232",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:16:00+00:00",
+                    "localtime": "2012-04-19T22:16:00+03:00"
+                },
+                "medianjourneytime": "352",
+                "nobs": "1"
+            }, {
+                "linkno": "233",
+                "measurementtime": {
+                    "utc": "2009-05-28T05:06:00+00:00",
+                    "localtime": "2009-05-28T08:06:00+03:00"
+                },
+                "medianjourneytime": "2028",
+                "nobs": "-1"
+            }, {
+                "linkno": "234",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:18:00+00:00",
+                    "localtime": "2012-04-19T22:18:00+03:00"
+                },
+                "medianjourneytime": "197",
+                "nobs": "1"
+            }, {
+                "linkno": "235",
+                "measurementtime": {
+                    "utc": "2009-04-08T13:38:00+00:00",
+                    "localtime": "2009-04-08T16:38:00+03:00"
+                },
+                "medianjourneytime": "1454",
+                "nobs": "-1"
+            }, {
+                "linkno": "110101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:29:00+00:00",
+                    "localtime": "2012-04-19T22:29:00+03:00"
+                },
+                "medianjourneytime": "1390",
+                "nobs": "1"
+            }, {
+                "linkno": "110102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:32:00+00:00",
+                    "localtime": "2012-04-19T22:32:00+03:00"
+                },
+                "medianjourneytime": "1175",
+                "nobs": "1"
+            }, {
+                "linkno": "110201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "1166",
+                "nobs": "1"
+            }, {
+                "linkno": "110202",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:39:00+00:00",
+                    "localtime": "2012-04-19T21:39:00+03:00"
+                },
+                "medianjourneytime": "846",
+                "nobs": "1"
+            }, {
+                "linkno": "110301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "788",
+                "nobs": "2"
+            }, {
+                "linkno": "110302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:49:00+00:00",
+                    "localtime": "2012-04-19T22:49:00+03:00"
+                },
+                "medianjourneytime": "792",
+                "nobs": "1"
+            }, {
+                "linkno": "110401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "687",
+                "nobs": "1"
+            }, {
+                "linkno": "110402",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:00:00+00:00",
+                    "localtime": "2012-04-19T21:00:00+03:00"
+                },
+                "medianjourneytime": "617",
+                "nobs": "1"
+            }, {
+                "linkno": "112101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "68",
+                "nobs": "1"
+            }, {
+                "linkno": "112102",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:50:00+00:00",
+                    "localtime": "2012-04-19T21:50:00+03:00"
+                },
+                "medianjourneytime": "65",
+                "nobs": "1"
+            }, {
+                "linkno": "112201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "204",
+                "nobs": "3"
+            }, {
+                "linkno": "112202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "186",
+                "nobs": "3"
+            }, {
+                "linkno": "310101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:39:00+00:00",
+                    "localtime": "2012-04-19T22:39:00+03:00"
+                },
+                "medianjourneytime": "135",
+                "nobs": "1"
+            }, {
+                "linkno": "310102",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:36:00+00:00",
+                    "localtime": "2012-04-19T21:36:00+03:00"
+                },
+                "medianjourneytime": "140",
+                "nobs": "1"
+            }, {
+                "linkno": "310201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:50:00+00:00",
+                    "localtime": "2012-04-19T22:50:00+03:00"
+                },
+                "medianjourneytime": "129",
+                "nobs": "1"
+            }, {
+                "linkno": "310202",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:34:00+00:00",
+                    "localtime": "2012-04-19T21:34:00+03:00"
+                },
+                "medianjourneytime": "125",
+                "nobs": "1"
+            }, {
+                "linkno": "310301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "334",
+                "nobs": "1"
+            }, {
+                "linkno": "310302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:31:00+00:00",
+                    "localtime": "2012-04-19T22:31:00+03:00"
+                },
+                "medianjourneytime": "2878",
+                "nobs": "1"
+            }, {
+                "linkno": "310401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "109",
+                "nobs": "1"
+            }, {
+                "linkno": "310402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:02:00+00:00",
+                    "localtime": "2012-04-19T22:02:00+03:00"
+                },
+                "medianjourneytime": "95",
+                "nobs": "1"
+            }, {
+                "linkno": "310501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:13:00+00:00",
+                    "localtime": "2012-04-19T22:13:00+03:00"
+                },
+                "medianjourneytime": "127",
+                "nobs": "1"
+            }, {
+                "linkno": "310502",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:03:00+00:00",
+                    "localtime": "2012-04-19T21:03:00+03:00"
+                },
+                "medianjourneytime": "130",
+                "nobs": "1"
+            }, {
+                "linkno": "310601",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:26:00+00:00",
+                    "localtime": "2012-04-19T21:26:00+03:00"
+                },
+                "medianjourneytime": "1291",
+                "nobs": "1"
+            }, {
+                "linkno": "310602",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:22:00+00:00",
+                    "localtime": "2012-04-19T21:22:00+03:00"
+                },
+                "medianjourneytime": "117",
+                "nobs": "1"
+            }, {
+                "linkno": "310701",
+                "measurementtime": {
+                    "utc": "2012-04-19T13:55:00+00:00",
+                    "localtime": "2012-04-19T16:55:00+03:00"
+                },
+                "medianjourneytime": "232",
+                "nobs": "1"
+            }, {
+                "linkno": "310702",
+                "measurementtime": {
+                    "utc": "2012-04-19T17:59:00+00:00",
+                    "localtime": "2012-04-19T20:59:00+03:00"
+                },
+                "medianjourneytime": "1858",
+                "nobs": "1"
+            }, {
+                "linkno": "312101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1334",
+                "nobs": "5"
+            }, {
+                "linkno": "312102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1232",
+                "nobs": "2"
+            }, {
+                "linkno": "312201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "543",
+                "nobs": "3"
+            }, {
+                "linkno": "312202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "580",
+                "nobs": "4"
+            }, {
+                "linkno": "312301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:47:00+00:00",
+                    "localtime": "2012-04-19T22:47:00+03:00"
+                },
+                "medianjourneytime": "959",
+                "nobs": "1"
+            }, {
+                "linkno": "312302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:54:00+00:00",
+                    "localtime": "2012-04-19T22:54:00+03:00"
+                },
+                "medianjourneytime": "651",
+                "nobs": "1"
+            }, {
+                "linkno": "312411",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:47:00+00:00",
+                    "localtime": "2012-04-19T22:47:00+03:00"
+                },
+                "medianjourneytime": "477",
+                "nobs": "1"
+            }, {
+                "linkno": "312412",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "550",
+                "nobs": "2"
+            }, {
+                "linkno": "312421",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "730",
+                "nobs": "1"
+            }, {
+                "linkno": "312422",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "702",
+                "nobs": "3"
+            }, {
+                "linkno": "312511",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:50:00+00:00",
+                    "localtime": "2012-04-19T22:50:00+03:00"
+                },
+                "medianjourneytime": "1481",
+                "nobs": "1"
+            }, {
+                "linkno": "312512",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1563",
+                "nobs": "2"
+            }, {
+                "linkno": "312601",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "319",
+                "nobs": "9"
+            }, {
+                "linkno": "312602",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:45:00+00:00",
+                    "localtime": "2012-04-19T22:45:00+03:00"
+                },
+                "medianjourneytime": "266",
+                "nobs": "1"
+            }, {
+                "linkno": "314101",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:54:00+00:00",
+                    "localtime": "2012-04-19T21:54:00+03:00"
+                },
+                "medianjourneytime": "1603",
+                "nobs": "3"
+            }, {
+                "linkno": "314102",
+                "measurementtime": {
+                    "utc": "2012-04-19T17:35:00+00:00",
+                    "localtime": "2012-04-19T20:35:00+03:00"
+                },
+                "medianjourneytime": "1679",
+                "nobs": "1"
+            }, {
+                "linkno": "314201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:14:00+00:00",
+                    "localtime": "2012-04-19T22:14:00+03:00"
+                },
+                "medianjourneytime": "1158",
+                "nobs": "1"
+            }, {
+                "linkno": "314202",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:37:00+00:00",
+                    "localtime": "2012-04-19T21:37:00+03:00"
+                },
+                "medianjourneytime": "1050",
+                "nobs": "1"
+            }, {
+                "linkno": "314301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:49:00+00:00",
+                    "localtime": "2012-04-19T22:49:00+03:00"
+                },
+                "medianjourneytime": "1158",
+                "nobs": "1"
+            }, {
+                "linkno": "314302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:22:00+00:00",
+                    "localtime": "2012-04-19T22:22:00+03:00"
+                },
+                "medianjourneytime": "993",
+                "nobs": "2"
+            }, {
+                "linkno": "314401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:49:00+00:00",
+                    "localtime": "2012-04-19T22:49:00+03:00"
+                },
+                "medianjourneytime": "1098",
+                "nobs": "1"
+            }, {
+                "linkno": "314402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "1172",
+                "nobs": "1"
+            }, {
+                "linkno": "314501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "1371",
+                "nobs": "1"
+            }, {
+                "linkno": "314502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:54:00+00:00",
+                    "localtime": "2012-04-19T22:54:00+03:00"
+                },
+                "medianjourneytime": "1443",
+                "nobs": "1"
+            }, {
+                "linkno": "314601",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "1334",
+                "nobs": "1"
+            }, {
+                "linkno": "314602",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:30:00+00:00",
+                    "localtime": "2012-04-19T22:30:00+03:00"
+                },
+                "medianjourneytime": "1206",
+                "nobs": "1"
+            }, {
+                "linkno": "314701",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "969",
+                "nobs": "1"
+            }, {
+                "linkno": "314702",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:35:00+00:00",
+                    "localtime": "2012-04-19T22:35:00+03:00"
+                },
+                "medianjourneytime": "1189",
+                "nobs": "2"
+            }, {
+                "linkno": "410101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1144",
+                "nobs": "1"
+            }, {
+                "linkno": "410102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1075",
+                "nobs": "7"
+            }, {
+                "linkno": "410201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "567",
+                "nobs": "5"
+            }, {
+                "linkno": "410202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "615",
+                "nobs": "5"
+            }, {
+                "linkno": "410301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "379",
+                "nobs": "2"
+            }, {
+                "linkno": "410302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "443",
+                "nobs": "3"
+            }, {
+                "linkno": "410401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:48:00+00:00",
+                    "localtime": "2012-04-19T22:48:00+03:00"
+                },
+                "medianjourneytime": "1125",
+                "nobs": "1"
+            }, {
+                "linkno": "410402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1459",
+                "nobs": "3"
+            }, {
+                "linkno": "410501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:52:00+00:00",
+                    "localtime": "2012-04-19T22:52:00+03:00"
+                },
+                "medianjourneytime": "1355",
+                "nobs": "1"
+            }, {
+                "linkno": "410502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1305",
+                "nobs": "1"
+            }, {
+                "linkno": "410601",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "992",
+                "nobs": "3"
+            }, {
+                "linkno": "410602",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:48:00+00:00",
+                    "localtime": "2012-04-19T22:48:00+03:00"
+                },
+                "medianjourneytime": "1080",
+                "nobs": "2"
+            }, {
+                "linkno": "410701",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1516",
+                "nobs": "7"
+            }, {
+                "linkno": "410702",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:54:00+00:00",
+                    "localtime": "2012-04-19T22:54:00+03:00"
+                },
+                "medianjourneytime": "1666",
+                "nobs": "1"
+            }, {
+                "linkno": "410801",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "796",
+                "nobs": "8"
+            }, {
+                "linkno": "410802",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:38:00+00:00",
+                    "localtime": "2012-04-19T22:38:00+03:00"
+                },
+                "medianjourneytime": "970",
+                "nobs": "1"
+            }, {
+                "linkno": "410901",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "518",
+                "nobs": "2"
+            }, {
+                "linkno": "410902",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:21:00+00:00",
+                    "localtime": "2012-04-19T22:21:00+03:00"
+                },
+                "medianjourneytime": "585",
+                "nobs": "1"
+            }, {
+                "linkno": "412101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "639",
+                "nobs": "2"
+            }, {
+                "linkno": "412102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "564",
+                "nobs": "2"
+            }, {
+                "linkno": "412201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:50:00+00:00",
+                    "localtime": "2012-04-19T22:50:00+03:00"
+                },
+                "medianjourneytime": "865",
+                "nobs": "1"
+            }, {
+                "linkno": "412202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "562",
+                "nobs": "1"
+            }, {
+                "linkno": "412301",
+                "measurementtime": {
+                    "utc": "2012-04-19T16:52:00+00:00",
+                    "localtime": "2012-04-19T19:52:00+03:00"
+                },
+                "medianjourneytime": "1306",
+                "nobs": "1"
+            }, {
+                "linkno": "412302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1352",
+                "nobs": "3"
+            }, {
+                "linkno": "412401",
+                "measurementtime": {
+                    "utc": "2012-04-19T17:20:00+00:00",
+                    "localtime": "2012-04-19T20:20:00+03:00"
+                },
+                "medianjourneytime": "1675",
+                "nobs": "1"
+            }, {
+                "linkno": "412402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1086",
+                "nobs": "4"
+            }, {
+                "linkno": "412501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "2485",
+                "nobs": "1"
+            }, {
+                "linkno": "412502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "2337",
+                "nobs": "2"
+            }, {
+                "linkno": "412601",
+                "measurementtime": {
+                    "utc": "2012-03-18T15:46:00+00:00",
+                    "localtime": "2012-03-18T17:46:00+02:00"
+                },
+                "medianjourneytime": "1614",
+                "nobs": "1"
+            }, {
+                "linkno": "412602",
+                "measurementtime": {
+                    "utc": "2012-03-18T16:23:00+00:00",
+                    "localtime": "2012-03-18T18:23:00+02:00"
+                },
+                "medianjourneytime": "1904",
+                "nobs": "1"
+            }, {
+                "linkno": "412701",
+                "measurementtime": {
+                    "utc": "2012-03-18T16:06:00+00:00",
+                    "localtime": "2012-03-18T18:06:00+02:00"
+                },
+                "medianjourneytime": "2391",
+                "nobs": "1"
+            }, {
+                "linkno": "412702",
+                "measurementtime": {
+                    "utc": "2012-03-18T15:52:00+00:00",
+                    "localtime": "2012-03-18T17:52:00+02:00"
+                },
+                "medianjourneytime": "2844",
+                "nobs": "2"
+            }, {
+                "linkno": "412801",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "1625",
+                "nobs": "1"
+            }, {
+                "linkno": "412802",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:54:00+00:00",
+                    "localtime": "2012-04-19T22:54:00+03:00"
+                },
+                "medianjourneytime": "1061",
+                "nobs": "1"
+            }, {
+                "linkno": "412901",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:28:00+00:00",
+                    "localtime": "2012-04-19T21:28:00+03:00"
+                },
+                "medianjourneytime": "3025",
+                "nobs": "1"
+            }, {
+                "linkno": "412902",
+                "measurementtime": {
+                    "utc": "2012-04-19T17:13:00+00:00",
+                    "localtime": "2012-04-19T20:13:00+03:00"
+                },
+                "medianjourneytime": "4881",
+                "nobs": "2"
+            }, {
+                "linkno": "413001",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "2555",
+                "nobs": "1"
+            }, {
+                "linkno": "413002",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:38:00+00:00",
+                    "localtime": "2012-04-19T22:38:00+03:00"
+                },
+                "medianjourneytime": "5106",
+                "nobs": "1"
+            }, {
+                "linkno": "413101",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:54:00+00:00",
+                    "localtime": "2012-04-19T21:54:00+03:00"
+                },
+                "medianjourneytime": "520",
+                "nobs": "1"
+            }, {
+                "linkno": "413102",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:13:00+00:00",
+                    "localtime": "2012-04-19T21:13:00+03:00"
+                },
+                "medianjourneytime": "530",
+                "nobs": "1"
+            }, {
+                "linkno": "413201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:22:00+00:00",
+                    "localtime": "2012-04-19T22:22:00+03:00"
+                },
+                "medianjourneytime": "178",
+                "nobs": "1"
+            }, {
+                "linkno": "413202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:05:00+00:00",
+                    "localtime": "2012-04-19T22:05:00+03:00"
+                },
+                "medianjourneytime": "173",
+                "nobs": "1"
+            }, {
+                "linkno": "414101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "101",
+                "nobs": "6"
+            }, {
+                "linkno": "414102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "100",
+                "nobs": "1"
+            }, {
+                "linkno": "414201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "128",
+                "nobs": "1"
+            }, {
+                "linkno": "414202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "172",
+                "nobs": "1"
+            }, {
+                "linkno": "414301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:49:00+00:00",
+                    "localtime": "2012-04-19T22:49:00+03:00"
+                },
+                "medianjourneytime": "134",
+                "nobs": "1"
+            }, {
+                "linkno": "414302",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:38:00+00:00",
+                    "localtime": "2012-04-19T21:38:00+03:00"
+                },
+                "medianjourneytime": "122",
+                "nobs": "1"
+            }, {
+                "linkno": "416101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "910",
+                "nobs": "1"
+            }, {
+                "linkno": "416102",
+                "measurementtime": {
+                    "utc": "2012-04-19T17:41:00+00:00",
+                    "localtime": "2012-04-19T20:41:00+03:00"
+                },
+                "medianjourneytime": "734",
+                "nobs": "1"
+            }, {
+                "linkno": "416201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1881",
+                "nobs": "1"
+            }, {
+                "linkno": "416202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "2174",
+                "nobs": "1"
+            }, {
+                "linkno": "416301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:48:00+00:00",
+                    "localtime": "2012-04-19T22:48:00+03:00"
+                },
+                "medianjourneytime": "1508",
+                "nobs": "1"
+            }, {
+                "linkno": "416302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1668",
+                "nobs": "1"
+            }, {
+                "linkno": "416401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:20:00+00:00",
+                    "localtime": "2012-04-19T22:20:00+03:00"
+                },
+                "medianjourneytime": "65",
+                "nobs": "1"
+            }, {
+                "linkno": "416402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:33:00+00:00",
+                    "localtime": "2012-04-19T22:33:00+03:00"
+                },
+                "medianjourneytime": "66",
+                "nobs": "1"
+            }, {
+                "linkno": "416501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:44:00+00:00",
+                    "localtime": "2012-04-19T22:44:00+03:00"
+                },
+                "medianjourneytime": "437",
+                "nobs": "1"
+            }, {
+                "linkno": "416502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:09:00+00:00",
+                    "localtime": "2012-04-19T22:09:00+03:00"
+                },
+                "medianjourneytime": "443",
+                "nobs": "1"
+            }, {
+                "linkno": "418101",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:11:00+00:00",
+                    "localtime": "2012-04-19T21:11:00+03:00"
+                },
+                "medianjourneytime": "3714",
+                "nobs": "1"
+            }, {
+                "linkno": "418102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:32:00+00:00",
+                    "localtime": "2012-04-19T22:32:00+03:00"
+                },
+                "medianjourneytime": "1269",
+                "nobs": "1"
+            }, {
+                "linkno": "418201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:39:00+00:00",
+                    "localtime": "2012-04-19T22:39:00+03:00"
+                },
+                "medianjourneytime": "1504",
+                "nobs": "1"
+            }, {
+                "linkno": "418202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:44:00+00:00",
+                    "localtime": "2012-04-19T22:44:00+03:00"
+                },
+                "medianjourneytime": "2279",
+                "nobs": "1"
+            }, {
+                "linkno": "418301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "2373",
+                "nobs": "4"
+            }, {
+                "linkno": "418302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:06:00+00:00",
+                    "localtime": "2012-04-19T22:06:00+03:00"
+                },
+                "medianjourneytime": "6908",
+                "nobs": "1"
+            }, {
+                "linkno": "418401",
+                "measurementtime": {
+                    "utc": "2012-04-19T15:12:00+00:00",
+                    "localtime": "2012-04-19T18:12:00+03:00"
+                },
+                "medianjourneytime": "450",
+                "nobs": "1"
+            }, {
+                "linkno": "418402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:48:00+00:00",
+                    "localtime": "2012-04-19T22:48:00+03:00"
+                },
+                "medianjourneytime": "339",
+                "nobs": "1"
+            }, {
+                "linkno": "510101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:41:00+00:00",
+                    "localtime": "2012-04-19T22:41:00+03:00"
+                },
+                "medianjourneytime": "501",
+                "nobs": "1"
+            }, {
+                "linkno": "510102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "540",
+                "nobs": "1"
+            }, {
+                "linkno": "510201",
+                "measurementtime": {
+                    "utc": "2012-03-05T08:06:00+00:00",
+                    "localtime": "2012-03-05T10:06:00+02:00"
+                },
+                "medianjourneytime": "907",
+                "nobs": "1"
+            }, {
+                "linkno": "510202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "2123",
+                "nobs": "1"
+            }, {
+                "linkno": "510301",
+                "measurementtime": {
+                    "utc": "2012-03-05T09:22:00+00:00",
+                    "localtime": "2012-03-05T11:22:00+02:00"
+                },
+                "medianjourneytime": "5398",
+                "nobs": "1"
+            }, {
+                "linkno": "510302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1493",
+                "nobs": "1"
+            }, {
+                "linkno": "510401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:46:00+00:00",
+                    "localtime": "2012-04-19T22:46:00+03:00"
+                },
+                "medianjourneytime": "1522",
+                "nobs": "1"
+            }, {
+                "linkno": "510402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1763",
+                "nobs": "1"
+            }, {
+                "linkno": "510501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:52:00+00:00",
+                    "localtime": "2012-04-19T22:52:00+03:00"
+                },
+                "medianjourneytime": "1085",
+                "nobs": "2"
+            }, {
+                "linkno": "510502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "2008",
+                "nobs": "1"
+            }, {
+                "linkno": "510601",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "994",
+                "nobs": "2"
+            }, {
+                "linkno": "510602",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1030",
+                "nobs": "2"
+            }, {
+                "linkno": "510701",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "2479",
+                "nobs": "3"
+            }, {
+                "linkno": "510702",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "886",
+                "nobs": "1"
+            }, {
+                "linkno": "510801",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1052",
+                "nobs": "1"
+            }, {
+                "linkno": "510802",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1198",
+                "nobs": "3"
+            }, {
+                "linkno": "510901",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:05:00+00:00",
+                    "localtime": "2012-04-19T22:05:00+03:00"
+                },
+                "medianjourneytime": "891",
+                "nobs": "1"
+            }, {
+                "linkno": "510902",
+                "measurementtime": {
+                    "utc": "2012-04-19T17:19:00+00:00",
+                    "localtime": "2012-04-19T20:19:00+03:00"
+                },
+                "medianjourneytime": "846",
+                "nobs": "1"
+            }, {
+                "linkno": "511001",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1455",
+                "nobs": "1"
+            }, {
+                "linkno": "511002",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:36:00+00:00",
+                    "localtime": "2012-04-19T22:36:00+03:00"
+                },
+                "medianjourneytime": "1449",
+                "nobs": "1"
+            }, {
+                "linkno": "511101",
+                "measurementtime": {
+                    "utc": "2012-04-19T12:58:00+00:00",
+                    "localtime": "2012-04-19T15:58:00+03:00"
+                },
+                "medianjourneytime": "1013",
+                "nobs": "1"
+            }, {
+                "linkno": "511102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "717",
+                "nobs": "1"
+            }, {
+                "linkno": "511201",
+                "measurementtime": {
+                    "utc": "2012-04-01T13:03:00+00:00",
+                    "localtime": "2012-04-01T16:03:00+03:00"
+                },
+                "medianjourneytime": "1040",
+                "nobs": "1"
+            }, {
+                "linkno": "511202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "963",
+                "nobs": "2"
+            }, {
+                "linkno": "610101",
+                "measurementtime": {
+                    "utc": "2012-04-19T17:43:00+00:00",
+                    "localtime": "2012-04-19T20:43:00+03:00"
+                },
+                "medianjourneytime": "1130",
+                "nobs": "1"
+            }, {
+                "linkno": "610102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "1391",
+                "nobs": "1"
+            }, {
+                "linkno": "610201",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:01:00+00:00",
+                    "localtime": "2012-04-19T21:01:00+03:00"
+                },
+                "medianjourneytime": "1107",
+                "nobs": "1"
+            }, {
+                "linkno": "610202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1110",
+                "nobs": "1"
+            }, {
+                "linkno": "610301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1317",
+                "nobs": "1"
+            }, {
+                "linkno": "610302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:50:00+00:00",
+                    "localtime": "2012-04-19T22:50:00+03:00"
+                },
+                "medianjourneytime": "1342",
+                "nobs": "1"
+            }, {
+                "linkno": "610401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:47:00+00:00",
+                    "localtime": "2012-04-19T22:47:00+03:00"
+                },
+                "medianjourneytime": "810",
+                "nobs": "1"
+            }, {
+                "linkno": "610402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "932",
+                "nobs": "1"
+            }, {
+                "linkno": "610501",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:28:00+00:00",
+                    "localtime": "2012-04-19T21:28:00+03:00"
+                },
+                "medianjourneytime": "1440",
+                "nobs": "1"
+            }, {
+                "linkno": "610502",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:29:00+00:00",
+                    "localtime": "2012-04-19T21:29:00+03:00"
+                },
+                "medianjourneytime": "1413",
+                "nobs": "1"
+            }, {
+                "linkno": "610601",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:48:00+00:00",
+                    "localtime": "2012-04-19T21:48:00+03:00"
+                },
+                "medianjourneytime": "1257",
+                "nobs": "1"
+            }, {
+                "linkno": "610602",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:05:00+00:00",
+                    "localtime": "2012-04-19T21:05:00+03:00"
+                },
+                "medianjourneytime": "1427",
+                "nobs": "1"
+            }, {
+                "linkno": "610701",
+                "measurementtime": {
+                    "utc": "2012-04-19T16:45:00+00:00",
+                    "localtime": "2012-04-19T19:45:00+03:00"
+                },
+                "medianjourneytime": "867",
+                "nobs": "1"
+            }, {
+                "linkno": "610702",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:49:00+00:00",
+                    "localtime": "2012-04-19T22:49:00+03:00"
+                },
+                "medianjourneytime": "1053",
+                "nobs": "1"
+            }, {
+                "linkno": "610801",
+                "measurementtime": {
+                    "utc": "2012-04-19T17:08:00+00:00",
+                    "localtime": "2012-04-19T20:08:00+03:00"
+                },
+                "medianjourneytime": "1406",
+                "nobs": "1"
+            }, {
+                "linkno": "610802",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:31:00+00:00",
+                    "localtime": "2012-04-19T22:31:00+03:00"
+                },
+                "medianjourneytime": "935",
+                "nobs": "1"
+            }, {
+                "linkno": "610901",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "950",
+                "nobs": "1"
+            }, {
+                "linkno": "610902",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "780",
+                "nobs": "1"
+            }, {
+                "linkno": "611001",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:26:00+00:00",
+                    "localtime": "2012-04-19T22:26:00+03:00"
+                },
+                "medianjourneytime": "1429",
+                "nobs": "1"
+            }, {
+                "linkno": "611002",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:24:00+00:00",
+                    "localtime": "2012-04-19T22:24:00+03:00"
+                },
+                "medianjourneytime": "1508",
+                "nobs": "1"
+            }, {
+                "linkno": "611101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:41:00+00:00",
+                    "localtime": "2012-04-19T22:41:00+03:00"
+                },
+                "medianjourneytime": "937",
+                "nobs": "1"
+            }, {
+                "linkno": "611102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "830",
+                "nobs": "1"
+            }, {
+                "linkno": "611201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:40:00+00:00",
+                    "localtime": "2012-04-19T22:40:00+03:00"
+                },
+                "medianjourneytime": "2001",
+                "nobs": "1"
+            }, {
+                "linkno": "611202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:32:00+00:00",
+                    "localtime": "2012-04-19T22:32:00+03:00"
+                },
+                "medianjourneytime": "5338",
+                "nobs": "1"
+            }, {
+                "linkno": "611301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "643",
+                "nobs": "2"
+            }, {
+                "linkno": "611302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "629",
+                "nobs": "1"
+            }, {
+                "linkno": "710101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:46:00+00:00",
+                    "localtime": "2012-04-19T22:46:00+03:00"
+                },
+                "medianjourneytime": "1234",
+                "nobs": "1"
+            }, {
+                "linkno": "710102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1347",
+                "nobs": "1"
+            }, {
+                "linkno": "710201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "871",
+                "nobs": "1"
+            }, {
+                "linkno": "710202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:34:00+00:00",
+                    "localtime": "2012-04-19T22:34:00+03:00"
+                },
+                "medianjourneytime": "1006",
+                "nobs": "1"
+            }, {
+                "linkno": "710301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:44:00+00:00",
+                    "localtime": "2012-04-19T22:44:00+03:00"
+                },
+                "medianjourneytime": "958",
+                "nobs": "1"
+            }, {
+                "linkno": "710302",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:23:00+00:00",
+                    "localtime": "2012-04-19T21:23:00+03:00"
+                },
+                "medianjourneytime": "838",
+                "nobs": "1"
+            }, {
+                "linkno": "710401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:52:00+00:00",
+                    "localtime": "2012-04-19T22:52:00+03:00"
+                },
+                "medianjourneytime": "494",
+                "nobs": "1"
+            }, {
+                "linkno": "710402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:49:00+00:00",
+                    "localtime": "2012-04-19T22:49:00+03:00"
+                },
+                "medianjourneytime": "553",
+                "nobs": "1"
+            }, {
+                "linkno": "710501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:41:00+00:00",
+                    "localtime": "2012-04-19T22:41:00+03:00"
+                },
+                "medianjourneytime": "1909",
+                "nobs": "1"
+            }, {
+                "linkno": "710502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1657",
+                "nobs": "1"
+            }, {
+                "linkno": "810101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:49:00+00:00",
+                    "localtime": "2012-04-19T22:49:00+03:00"
+                },
+                "medianjourneytime": "2188",
+                "nobs": "1"
+            }, {
+                "linkno": "810102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "991",
+                "nobs": "5"
+            }, {
+                "linkno": "810201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1275",
+                "nobs": "4"
+            }, {
+                "linkno": "810202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1137",
+                "nobs": "3"
+            }, {
+                "linkno": "810301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "828",
+                "nobs": "1"
+            }, {
+                "linkno": "810302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "2620",
+                "nobs": "1"
+            }, {
+                "linkno": "810401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:23:00+00:00",
+                    "localtime": "2012-04-19T22:23:00+03:00"
+                },
+                "medianjourneytime": "2156",
+                "nobs": "1"
+            }, {
+                "linkno": "810402",
+                "measurementtime": {
+                    "utc": "2012-04-19T15:40:00+00:00",
+                    "localtime": "2012-04-19T18:40:00+03:00"
+                },
+                "medianjourneytime": "2630",
+                "nobs": "1"
+            }, {
+                "linkno": "810501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1298",
+                "nobs": "2"
+            }, {
+                "linkno": "810502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:47:00+00:00",
+                    "localtime": "2012-04-19T22:47:00+03:00"
+                },
+                "medianjourneytime": "1727",
+                "nobs": "1"
+            }, {
+                "linkno": "812101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "114",
+                "nobs": "4"
+            }, {
+                "linkno": "812102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "113",
+                "nobs": "4"
+            }, {
+                "linkno": "910101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "134",
+                "nobs": "2"
+            }, {
+                "linkno": "910102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "142",
+                "nobs": "1"
+            }, {
+                "linkno": "910201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "62",
+                "nobs": "3"
+            }, {
+                "linkno": "910202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "60",
+                "nobs": "3"
+            }, {
+                "linkno": "912101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:08:00+00:00",
+                    "localtime": "2012-04-19T22:08:00+03:00"
+                },
+                "medianjourneytime": "1338",
+                "nobs": "1"
+            }, {
+                "linkno": "912102",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:57:00+00:00",
+                    "localtime": "2012-04-19T21:57:00+03:00"
+                },
+                "medianjourneytime": "1149",
+                "nobs": "1"
+            }, {
+                "linkno": "912201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:29:00+00:00",
+                    "localtime": "2012-04-19T22:29:00+03:00"
+                },
+                "medianjourneytime": "1252",
+                "nobs": "1"
+            }, {
+                "linkno": "912202",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:31:00+00:00",
+                    "localtime": "2012-04-19T21:31:00+03:00"
+                },
+                "medianjourneytime": "1876",
+                "nobs": "1"
+            }, {
+                "linkno": "912301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:54:00+00:00",
+                    "localtime": "2012-04-19T22:54:00+03:00"
+                },
+                "medianjourneytime": "899",
+                "nobs": "1"
+            }, {
+                "linkno": "912302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1212",
+                "nobs": "3"
+            }, {
+                "linkno": "912411",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:31:00+00:00",
+                    "localtime": "2012-04-19T22:31:00+03:00"
+                },
+                "medianjourneytime": "1515",
+                "nobs": "1"
+            }, {
+                "linkno": "912412",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1350",
+                "nobs": "1"
+            }, {
+                "linkno": "914101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "292",
+                "nobs": "2"
+            }, {
+                "linkno": "914102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:28:00+00:00",
+                    "localtime": "2012-04-19T22:28:00+03:00"
+                },
+                "medianjourneytime": "276",
+                "nobs": "1"
+            }, {
+                "linkno": "914201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1331",
+                "nobs": "1"
+            }, {
+                "linkno": "914202",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:43:00+00:00",
+                    "localtime": "2012-04-19T21:43:00+03:00"
+                },
+                "medianjourneytime": "1833",
+                "nobs": "1"
+            }, {
+                "linkno": "914301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "791",
+                "nobs": "1"
+            }, {
+                "linkno": "914302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:54:00+00:00",
+                    "localtime": "2012-04-19T22:54:00+03:00"
+                },
+                "medianjourneytime": "918",
+                "nobs": "1"
+            }, {
+                "linkno": "914401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1443",
+                "nobs": "1"
+            }, {
+                "linkno": "914402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "1627",
+                "nobs": "1"
+            }, {
+                "linkno": "914501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1316",
+                "nobs": "2"
+            }, {
+                "linkno": "914502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1369",
+                "nobs": "2"
+            }, {
+                "linkno": "914601",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "885",
+                "nobs": "1"
+            }, {
+                "linkno": "914602",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1822",
+                "nobs": "1"
+            }, {
+                "linkno": "1010101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "248",
+                "nobs": "1"
+            }, {
+                "linkno": "1010102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "229",
+                "nobs": "2"
+            }, {
+                "linkno": "1010201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "75",
+                "nobs": "2"
+            }, {
+                "linkno": "1010202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "77",
+                "nobs": "3"
+            }, {
+                "linkno": "1210101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:29:00+00:00",
+                    "localtime": "2012-04-19T22:29:00+03:00"
+                },
+                "medianjourneytime": "1175",
+                "nobs": "1"
+            }, {
+                "linkno": "1210102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:46:00+00:00",
+                    "localtime": "2012-04-19T22:46:00+03:00"
+                },
+                "medianjourneytime": "1930",
+                "nobs": "1"
+            }, {
+                "linkno": "1210201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1034",
+                "nobs": "2"
+            }, {
+                "linkno": "1210202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:49:00+00:00",
+                    "localtime": "2012-04-19T22:49:00+03:00"
+                },
+                "medianjourneytime": "1123",
+                "nobs": "1"
+            }, {
+                "linkno": "1210301",
+                "measurementtime": {
+                    "utc": "2012-04-19T15:57:00+00:00",
+                    "localtime": "2012-04-19T18:57:00+03:00"
+                },
+                "medianjourneytime": "2599",
+                "nobs": "1"
+            }, {
+                "linkno": "1210302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:45:00+00:00",
+                    "localtime": "2012-04-19T22:45:00+03:00"
+                },
+                "medianjourneytime": "1599",
+                "nobs": "1"
+            }, {
+                "linkno": "1210401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:52:00+00:00",
+                    "localtime": "2012-04-19T22:52:00+03:00"
+                },
+                "medianjourneytime": "918",
+                "nobs": "1"
+            }, {
+                "linkno": "1210402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:54:00+00:00",
+                    "localtime": "2012-04-19T22:54:00+03:00"
+                },
+                "medianjourneytime": "831",
+                "nobs": "1"
+            }, {
+                "linkno": "1210501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:50:00+00:00",
+                    "localtime": "2012-04-19T22:50:00+03:00"
+                },
+                "medianjourneytime": "1410",
+                "nobs": "2"
+            }, {
+                "linkno": "1210502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:40:00+00:00",
+                    "localtime": "2012-04-19T22:40:00+03:00"
+                },
+                "medianjourneytime": "1079",
+                "nobs": "1"
+            }, {
+                "linkno": "1310101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "565",
+                "nobs": "3"
+            }, {
+                "linkno": "1310102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:34:00+00:00",
+                    "localtime": "2012-04-19T22:34:00+03:00"
+                },
+                "medianjourneytime": "726",
+                "nobs": "1"
+            }, {
+                "linkno": "1510101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "563",
+                "nobs": "1"
+            }, {
+                "linkno": "1510102",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:31:00+00:00",
+                    "localtime": "2012-04-19T21:31:00+03:00"
+                },
+                "medianjourneytime": "4290",
+                "nobs": "1"
+            }, {
+                "linkno": "1510201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "846",
+                "nobs": "1"
+            }, {
+                "linkno": "1510202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:50:00+00:00",
+                    "localtime": "2012-04-19T22:50:00+03:00"
+                },
+                "medianjourneytime": "720",
+                "nobs": "1"
+            }, {
+                "linkno": "1910101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:43:00+00:00",
+                    "localtime": "2012-04-19T22:43:00+03:00"
+                },
+                "medianjourneytime": "999",
+                "nobs": "1"
+            }, {
+                "linkno": "1910102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:23:00+00:00",
+                    "localtime": "2012-04-19T22:23:00+03:00"
+                },
+                "medianjourneytime": "1020",
+                "nobs": "1"
+            }, {
+                "linkno": "1910201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1845",
+                "nobs": "2"
+            }, {
+                "linkno": "1910202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:52:00+00:00",
+                    "localtime": "2012-04-19T22:52:00+03:00"
+                },
+                "medianjourneytime": "3444",
+                "nobs": "1"
+            }, {
+                "linkno": "1910301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:34:00+00:00",
+                    "localtime": "2012-04-19T22:34:00+03:00"
+                },
+                "medianjourneytime": "1944",
+                "nobs": "1"
+            }, {
+                "linkno": "1910302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1468",
+                "nobs": "1"
+            }, {
+                "linkno": "1910401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1333",
+                "nobs": "1"
+            }, {
+                "linkno": "1910402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:47:00+00:00",
+                    "localtime": "2012-04-19T22:47:00+03:00"
+                },
+                "medianjourneytime": "947",
+                "nobs": "1"
+            }, {
+                "linkno": "1910501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "839",
+                "nobs": "2"
+            }, {
+                "linkno": "1910502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1013",
+                "nobs": "1"
+            }, {
+                "linkno": "1910601",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1071",
+                "nobs": "3"
+            }, {
+                "linkno": "1910602",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1179",
+                "nobs": "1"
+            }, {
+                "linkno": "2610101",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:50:00+00:00",
+                    "localtime": "2012-04-19T21:50:00+03:00"
+                },
+                "medianjourneytime": "1564",
+                "nobs": "1"
+            }, {
+                "linkno": "2610102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:45:00+00:00",
+                    "localtime": "2012-04-19T22:45:00+03:00"
+                },
+                "medianjourneytime": "1026",
+                "nobs": "1"
+            }, {
+                "linkno": "2610201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:49:00+00:00",
+                    "localtime": "2012-04-19T22:49:00+03:00"
+                },
+                "medianjourneytime": "1139",
+                "nobs": "1"
+            }, {
+                "linkno": "2610202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:44:00+00:00",
+                    "localtime": "2012-04-19T22:44:00+03:00"
+                },
+                "medianjourneytime": "1510",
+                "nobs": "1"
+            }, {
+                "linkno": "4010101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "111",
+                "nobs": "3"
+            }, {
+                "linkno": "4010102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "108",
+                "nobs": "9"
+            }, {
+                "linkno": "4010201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "139",
+                "nobs": "5"
+            }, {
+                "linkno": "4010202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "155",
+                "nobs": "3"
+            }, {
+                "linkno": "4010301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "187",
+                "nobs": "2"
+            }, {
+                "linkno": "4010302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "176",
+                "nobs": "3"
+            }, {
+                "linkno": "4012101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "178",
+                "nobs": "1"
+            }, {
+                "linkno": "4012102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "164",
+                "nobs": "3"
+            }, {
+                "linkno": "4510101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "188",
+                "nobs": "24"
+            }, {
+                "linkno": "4510102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "189",
+                "nobs": "13"
+            }, {
+                "linkno": "4510201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "113",
+                "nobs": "28"
+            }, {
+                "linkno": "4510202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "110",
+                "nobs": "3"
+            }, {
+                "linkno": "4510301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "61",
+                "nobs": "32"
+            }, {
+                "linkno": "4510302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "69",
+                "nobs": "1"
+            }, {
+                "linkno": "4510401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "122",
+                "nobs": "6"
+            }, {
+                "linkno": "4510402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "129",
+                "nobs": "4"
+            }, {
+                "linkno": "4510501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "140",
+                "nobs": "1"
+            }, {
+                "linkno": "4510502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "144",
+                "nobs": "3"
+            }, {
+                "linkno": "4510601",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "99",
+                "nobs": "1"
+            }, {
+                "linkno": "4510602",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "113",
+                "nobs": "13"
+            }, {
+                "linkno": "5010101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "83",
+                "nobs": "10"
+            }, {
+                "linkno": "5010102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "87",
+                "nobs": "11"
+            }, {
+                "linkno": "5010201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "102",
+                "nobs": "4"
+            }, {
+                "linkno": "5010202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "104",
+                "nobs": "7"
+            }, {
+                "linkno": "5012101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "298",
+                "nobs": "3"
+            }, {
+                "linkno": "5012102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "315",
+                "nobs": "1"
+            }, {
+                "linkno": "5012201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "91",
+                "nobs": "1"
+            }, {
+                "linkno": "5012202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "91",
+                "nobs": "7"
+            }, {
+                "linkno": "5012301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "129",
+                "nobs": "4"
+            }, {
+                "linkno": "5012302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "124",
+                "nobs": "10"
+            }, {
+                "linkno": "5110101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "72",
+                "nobs": "22"
+            }, {
+                "linkno": "5110102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "75",
+                "nobs": "18"
+            }, {
+                "linkno": "5110201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "102",
+                "nobs": "11"
+            }, {
+                "linkno": "5110202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "103",
+                "nobs": "11"
+            }, {
+                "linkno": "5110301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "144",
+                "nobs": "16"
+            }, {
+                "linkno": "5110302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "138",
+                "nobs": "2"
+            }, {
+                "linkno": "5110401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "200",
+                "nobs": "4"
+            }, {
+                "linkno": "5110402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "200",
+                "nobs": "4"
+            }, {
+                "linkno": "5110501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "282",
+                "nobs": "5"
+            }, {
+                "linkno": "5110502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "312",
+                "nobs": "8"
+            }, {
+                "linkno": "5110601",
+                "measurementtime": {
+                    "utc": "2011-11-16T12:27:00+00:00",
+                    "localtime": "2011-11-16T14:27:00+02:00"
+                },
+                "medianjourneytime": "3176",
+                "nobs": "1"
+            }, {
+                "linkno": "5110602",
+                "measurementtime": {
+                    "utc": "2011-11-14T06:34:00+00:00",
+                    "localtime": "2011-11-14T08:34:00+02:00"
+                },
+                "medianjourneytime": "550",
+                "nobs": "1"
+            }, {
+                "linkno": "5110701",
+                "measurementtime": {
+                    "utc": "2011-11-10T06:26:00+00:00",
+                    "localtime": "2011-11-10T08:26:00+02:00"
+                },
+                "medianjourneytime": "139",
+                "nobs": "1"
+            }, {
+                "linkno": "5110702",
+                "measurementtime": {
+                    "utc": "2011-11-10T06:32:00+00:00",
+                    "localtime": "2011-11-10T08:32:00+02:00"
+                },
+                "medianjourneytime": "328",
+                "nobs": "2"
+            }, {
+                "linkno": "6210101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:27:00+00:00",
+                    "localtime": "2012-04-19T22:27:00+03:00"
+                },
+                "medianjourneytime": "518",
+                "nobs": "1"
+            }, {
+                "linkno": "6210102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "502",
+                "nobs": "1"
+            }, {
+                "linkno": "6510101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:46:00+00:00",
+                    "localtime": "2012-04-19T22:46:00+03:00"
+                },
+                "medianjourneytime": "137",
+                "nobs": "2"
+            }, {
+                "linkno": "6510102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "134",
+                "nobs": "1"
+            }, {
+                "linkno": "6510201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "201",
+                "nobs": "2"
+            }, {
+                "linkno": "6510202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "217",
+                "nobs": "1"
+            }, {
+                "linkno": "6510301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "165",
+                "nobs": "5"
+            }, {
+                "linkno": "6510302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "163",
+                "nobs": "8"
+            }, {
+                "linkno": "6510401",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "134",
+                "nobs": "7"
+            }, {
+                "linkno": "6510402",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "133",
+                "nobs": "14"
+            }, {
+                "linkno": "6510501",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "282",
+                "nobs": "1"
+            }, {
+                "linkno": "6510502",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "268",
+                "nobs": "4"
+            }, {
+                "linkno": "10110101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "79",
+                "nobs": "13"
+            }, {
+                "linkno": "10110102",
+                "measurementtime": {
+                    "utc": "2012-04-13T21:07:00+00:00",
+                    "localtime": "2012-04-14T00:07:00+03:00"
+                },
+                "medianjourneytime": "79",
+                "nobs": "2"
+            }, {
+                "linkno": "10210101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "125",
+                "nobs": "23"
+            }, {
+                "linkno": "10210102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "123",
+                "nobs": "30"
+            }, {
+                "linkno": "10210201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "174",
+                "nobs": "7"
+            }, {
+                "linkno": "10210202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "160",
+                "nobs": "7"
+            }, {
+                "linkno": "12010101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "137",
+                "nobs": "8"
+            }, {
+                "linkno": "12010102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "147",
+                "nobs": "6"
+            }, {
+                "linkno": "12010201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "337",
+                "nobs": "3"
+            }, {
+                "linkno": "12010202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "280",
+                "nobs": "1"
+            }, {
+                "linkno": "13510101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "97",
+                "nobs": "14"
+            }, {
+                "linkno": "13510102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "77",
+                "nobs": "20"
+            }, {
+                "linkno": "17010101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "204",
+                "nobs": "4"
+            }, {
+                "linkno": "17010102",
+                "measurementtime": {
+                    "utc": "2012-04-19T15:53:00+00:00",
+                    "localtime": "2012-04-19T18:53:00+03:00"
+                },
+                "medianjourneytime": "5168",
+                "nobs": "1"
+            }, {
+                "linkno": "17010201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "84",
+                "nobs": "3"
+            }, {
+                "linkno": "17010202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "93",
+                "nobs": "1"
+            }, {
+                "linkno": "17010301",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "172",
+                "nobs": "3"
+            }, {
+                "linkno": "17010302",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "206",
+                "nobs": "1"
+            }, {
+                "linkno": "34950101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "489",
+                "nobs": "2"
+            }, {
+                "linkno": "34950102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "360",
+                "nobs": "1"
+            }, {
+                "linkno": "81510101",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:54:00+00:00",
+                    "localtime": "2012-04-19T22:54:00+03:00"
+                },
+                "medianjourneytime": "234",
+                "nobs": "2"
+            }, {
+                "linkno": "81510102",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "280",
+                "nobs": "2"
+            }, {
+                "linkno": "81510201",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "290",
+                "nobs": "1"
+            }, {
+                "linkno": "81510202",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:41:00+00:00",
+                    "localtime": "2012-04-19T22:41:00+03:00"
+                },
+                "medianjourneytime": "263",
+                "nobs": "3"
+            }, {
+                "linkno": "99001011",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "582",
+                "nobs": "1"
+            }, {
+                "linkno": "99001012",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:34:00+00:00",
+                    "localtime": "2012-04-19T22:34:00+03:00"
+                },
+                "medianjourneytime": "619",
+                "nobs": "1"
+            }, {
+                "linkno": "99001021",
+                "measurementtime": {
+                    "utc": "2012-04-19T17:48:00+00:00",
+                    "localtime": "2012-04-19T20:48:00+03:00"
+                },
+                "medianjourneytime": "5642",
+                "nobs": "1"
+            }, {
+                "linkno": "99001022",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "160",
+                "nobs": "1"
+            }, {
+                "linkno": "99001031",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "269",
+                "nobs": "1"
+            }, {
+                "linkno": "99001032",
+                "measurementtime": {
+                    "utc": "2012-04-19T17:47:00+00:00",
+                    "localtime": "2012-04-19T20:47:00+03:00"
+                },
+                "medianjourneytime": "271",
+                "nobs": "1"
+            }, {
+                "linkno": "99001041",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:05:00+00:00",
+                    "localtime": "2012-04-19T21:05:00+03:00"
+                },
+                "medianjourneytime": "5269",
+                "nobs": "1"
+            }, {
+                "linkno": "99001042",
+                "measurementtime": {
+                    "utc": "2012-04-19T16:01:00+00:00",
+                    "localtime": "2012-04-19T19:01:00+03:00"
+                },
+                "medianjourneytime": "216",
+                "nobs": "1"
+            }, {
+                "linkno": "99001051",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:34:00+00:00",
+                    "localtime": "2012-04-19T21:34:00+03:00"
+                },
+                "medianjourneytime": "532",
+                "nobs": "1"
+            }, {
+                "linkno": "99001052",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:16:00+00:00",
+                    "localtime": "2012-04-19T22:16:00+03:00"
+                },
+                "medianjourneytime": "273",
+                "nobs": "1"
+            }, {
+                "linkno": "99001061",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:06:00+00:00",
+                    "localtime": "2012-04-19T22:06:00+03:00"
+                },
+                "medianjourneytime": "254",
+                "nobs": "1"
+            }, {
+                "linkno": "99001062",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:52:00+00:00",
+                    "localtime": "2012-04-19T21:52:00+03:00"
+                },
+                "medianjourneytime": "285",
+                "nobs": "1"
+            }, {
+                "linkno": "99001071",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "95",
+                "nobs": "1"
+            }, {
+                "linkno": "99001072",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "89",
+                "nobs": "1"
+            }, {
+                "linkno": "99001081",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "397",
+                "nobs": "1"
+            }, {
+                "linkno": "99001082",
+                "measurementtime": {
+                    "utc": "2012-04-19T16:23:00+00:00",
+                    "localtime": "2012-04-19T19:23:00+03:00"
+                },
+                "medianjourneytime": "457",
+                "nobs": "1"
+            }, {
+                "linkno": "99001091",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "923",
+                "nobs": "5"
+            }, {
+                "linkno": "99001092",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "1541",
+                "nobs": "2"
+            }, {
+                "linkno": "99001111",
+                "measurementtime": {
+                    "utc": "2012-04-19T15:55:00+00:00",
+                    "localtime": "2012-04-19T18:55:00+03:00"
+                },
+                "medianjourneytime": "478",
+                "nobs": "1"
+            }, {
+                "linkno": "99001112",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:35:00+00:00",
+                    "localtime": "2012-04-19T22:35:00+03:00"
+                },
+                "medianjourneytime": "541",
+                "nobs": "1"
+            }, {
+                "linkno": "99001121",
+                "measurementtime": {
+                    "utc": "2011-11-15T10:56:00+00:00",
+                    "localtime": "2011-11-15T12:56:00+02:00"
+                },
+                "medianjourneytime": "4222",
+                "nobs": "1"
+            }, {
+                "linkno": "99001122",
+                "measurementtime": {
+                    "utc": "2011-11-24T05:08:00+00:00",
+                    "localtime": "2011-11-24T07:08:00+02:00"
+                },
+                "medianjourneytime": "1108",
+                "nobs": "1"
+            }, {
+                "linkno": "99001141",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "193",
+                "nobs": "6"
+            }, {
+                "linkno": "99001142",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "179",
+                "nobs": "16"
+            }, {
+                "linkno": "99001151",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "95",
+                "nobs": "7"
+            }, {
+                "linkno": "99001152",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "130",
+                "nobs": "14"
+            }, {
+                "linkno": "99001161",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "279",
+                "nobs": "1"
+            }, {
+                "linkno": "99001162",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "74",
+                "nobs": "1"
+            }, {
+                "linkno": "99001171",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "105",
+                "nobs": "6"
+            }, {
+                "linkno": "99001172",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "75",
+                "nobs": "3"
+            }, {
+                "linkno": "99001181",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "73",
+                "nobs": "1"
+            }, {
+                "linkno": "99001182",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "88",
+                "nobs": "1"
+            }, {
+                "linkno": "99001191",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "217",
+                "nobs": "1"
+            }, {
+                "linkno": "99001192",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "235",
+                "nobs": "2"
+            }, {
+                "linkno": "99001211",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:47:00+00:00",
+                    "localtime": "2012-04-19T22:47:00+03:00"
+                },
+                "medianjourneytime": "191",
+                "nobs": "1"
+            }, {
+                "linkno": "99001212",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:26:00+00:00",
+                    "localtime": "2012-04-19T22:26:00+03:00"
+                },
+                "medianjourneytime": "268",
+                "nobs": "1"
+            }, {
+                "linkno": "99001221",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:41:00+00:00",
+                    "localtime": "2012-04-19T22:41:00+03:00"
+                },
+                "medianjourneytime": "330",
+                "nobs": "2"
+            }, {
+                "linkno": "99001222",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:16:00+00:00",
+                    "localtime": "2012-04-19T22:16:00+03:00"
+                },
+                "medianjourneytime": "268",
+                "nobs": "1"
+            }, {
+                "linkno": "99001231",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "234",
+                "nobs": "1"
+            }, {
+                "linkno": "99001232",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "189",
+                "nobs": "1"
+            }, {
+                "linkno": "99001241",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:49:00+00:00",
+                    "localtime": "2012-04-19T22:49:00+03:00"
+                },
+                "medianjourneytime": "229",
+                "nobs": "2"
+            }, {
+                "linkno": "99001242",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "299",
+                "nobs": "1"
+            }, {
+                "linkno": "99001251",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:52:00+00:00",
+                    "localtime": "2012-04-19T22:52:00+03:00"
+                },
+                "medianjourneytime": "173",
+                "nobs": "1"
+            }, {
+                "linkno": "99001252",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:32:00+00:00",
+                    "localtime": "2012-04-19T22:32:00+03:00"
+                },
+                "medianjourneytime": "478",
+                "nobs": "2"
+            }, {
+                "linkno": "99001262",
+                "measurementtime": {
+                    "utc": "2012-04-19T16:34:00+00:00",
+                    "localtime": "2012-04-19T19:34:00+03:00"
+                },
+                "medianjourneytime": "5800",
+                "nobs": "1"
+            }, {
+                "linkno": "99001272",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "522",
+                "nobs": "1"
+            }, {
+                "linkno": "99001291",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "301",
+                "nobs": "2"
+            }, {
+                "linkno": "99001292",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "342",
+                "nobs": "1"
+            }, {
+                "linkno": "99901011",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "242",
+                "nobs": "7"
+            }, {
+                "linkno": "99901012",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "245",
+                "nobs": "11"
+            }, {
+                "linkno": "99901021",
+                "measurementtime": {
+                    "utc": "2012-03-01T10:51:00+00:00",
+                    "localtime": "2012-03-01T12:51:00+02:00"
+                },
+                "medianjourneytime": "2600",
+                "nobs": "2"
+            }, {
+                "linkno": "99901022",
+                "measurementtime": {
+                    "utc": "2012-03-01T12:53:00+00:00",
+                    "localtime": "2012-03-01T14:53:00+02:00"
+                },
+                "medianjourneytime": "7134",
+                "nobs": "1"
+            }, {
+                "linkno": "99901031",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:53:00+00:00",
+                    "localtime": "2012-04-19T22:53:00+03:00"
+                },
+                "medianjourneytime": "1416",
+                "nobs": "1"
+            }, {
+                "linkno": "99901032",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:15:00+00:00",
+                    "localtime": "2012-04-19T22:15:00+03:00"
+                },
+                "medianjourneytime": "2000",
+                "nobs": "1"
+            }, {
+                "linkno": "99901041",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "295",
+                "nobs": "5"
+            }, {
+                "linkno": "99901042",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "301",
+                "nobs": "11"
+            }, {
+                "linkno": "99901051",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "435",
+                "nobs": "5"
+            }, {
+                "linkno": "99901052",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "6017",
+                "nobs": "1"
+            }, {
+                "linkno": "99901061",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "370",
+                "nobs": "31"
+            }, {
+                "linkno": "99901062",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "368",
+                "nobs": "10"
+            }, {
+                "linkno": "99901071",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "354",
+                "nobs": "8"
+            }, {
+                "linkno": "99901072",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "371",
+                "nobs": "22"
+            }, {
+                "linkno": "99901081",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "446",
+                "nobs": "1"
+            }, {
+                "linkno": "99901082",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:40:00+00:00",
+                    "localtime": "2012-04-19T22:40:00+03:00"
+                },
+                "medianjourneytime": "1453",
+                "nobs": "1"
+            }, {
+                "linkno": "99901091",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:46:00+00:00",
+                    "localtime": "2012-04-19T22:46:00+03:00"
+                },
+                "medianjourneytime": "468",
+                "nobs": "1"
+            }, {
+                "linkno": "99901092",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "382",
+                "nobs": "1"
+            }, {
+                "linkno": "99901111",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "525",
+                "nobs": "1"
+            }, {
+                "linkno": "99901112",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "409",
+                "nobs": "14"
+            }, {
+                "linkno": "99901121",
+                "measurementtime": {
+                    "utc": "2012-04-19T13:27:00+00:00",
+                    "localtime": "2012-04-19T16:27:00+03:00"
+                },
+                "medianjourneytime": "5185",
+                "nobs": "1"
+            }, {
+                "linkno": "99901122",
+                "measurementtime": {
+                    "utc": "2012-04-19T13:40:00+00:00",
+                    "localtime": "2012-04-19T16:40:00+03:00"
+                },
+                "medianjourneytime": "5215",
+                "nobs": "1"
+            }, {
+                "linkno": "99901131",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "627",
+                "nobs": "1"
+            }, {
+                "linkno": "99901132",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "612",
+                "nobs": "7"
+            }, {
+                "linkno": "99901141",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "202",
+                "nobs": "3"
+            }, {
+                "linkno": "99901142",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:51:00+00:00",
+                    "localtime": "2012-04-19T22:51:00+03:00"
+                },
+                "medianjourneytime": "213",
+                "nobs": "1"
+            }, {
+                "linkno": "99901151",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "303",
+                "nobs": "1"
+            }, {
+                "linkno": "99901152",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "322",
+                "nobs": "1"
+            }, {
+                "linkno": "99901161",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "284",
+                "nobs": "1"
+            }, {
+                "linkno": "99901162",
+                "measurementtime": {
+                    "utc": "2012-04-19T18:50:00+00:00",
+                    "localtime": "2012-04-19T21:50:00+03:00"
+                },
+                "medianjourneytime": "273",
+                "nobs": "1"
+            }, {
+                "linkno": "99901171",
+                "measurementtime": {
+                    "utc": "2012-04-19T17:49:00+00:00",
+                    "localtime": "2012-04-19T20:49:00+03:00"
+                },
+                "medianjourneytime": "493",
+                "nobs": "1"
+            }, {
+                "linkno": "99901172",
+                "measurementtime": {
+                    "utc": "2012-04-19T15:44:00+00:00",
+                    "localtime": "2012-04-19T18:44:00+03:00"
+                },
+                "medianjourneytime": "459",
+                "nobs": "1"
+            }, {
+                "linkno": "99901181",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:18:00+00:00",
+                    "localtime": "2012-04-19T22:18:00+03:00"
+                },
+                "medianjourneytime": "2104",
+                "nobs": "1"
+            }, {
+                "linkno": "99901182",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:55:00+00:00",
+                    "localtime": "2012-04-19T22:55:00+03:00"
+                },
+                "medianjourneytime": "3350",
+                "nobs": "1"
+            }, {
+                "linkno": "99901191",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:43:00+00:00",
+                    "localtime": "2012-04-19T22:43:00+03:00"
+                },
+                "medianjourneytime": "6621",
+                "nobs": "1"
+            }, {
+                "linkno": "99901192",
+                "measurementtime": {
+                    "utc": "2012-04-19T19:56:00+00:00",
+                    "localtime": "2012-04-19T22:56:00+03:00"
+                },
+                "medianjourneytime": "6629",
+                "nobs": "1"
+            }]
+        },
+        "@xmlns": "http://www.gofore.com/sujuvuus/schemas"
+    }
+}
