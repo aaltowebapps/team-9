@@ -6,7 +6,7 @@ window.App =
 
   init: ->
     console.log("Initialized Backbone application")
-    new App.Routers.Examples
+    new App.Routers.Main
     Backbone.history.start()
 
 $(document).ready ->

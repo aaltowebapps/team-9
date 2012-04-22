@@ -18,15 +18,27 @@ $side-gutter-width: $gutter-width;
 
 @include global-reset;
 
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   font-family: $font-family;
   color: $font-color; 
+  margin: 0;
+  padding: 0;
 }
 
 a {
   @include link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color);
 }
 
-#main {
-  padding: 50px;
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  height: 100%;
 }
