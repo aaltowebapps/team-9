@@ -1,4 +1,6 @@
 @import "compass";
+@import "bootstrap.css";
+@import "bootstrap-responsive.css";
 
 $link-color:         #0388a6;
 $link-hover-color:   #009ce0;
@@ -26,8 +28,6 @@ html, body {
 body {
   font-family: $font-family;
   color: $font-color; 
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -41,4 +41,8 @@ a {
 
 #container {
   height: 100%;
+}
+
+.navbar-fixed-top {
+  margin: 0;
 }
