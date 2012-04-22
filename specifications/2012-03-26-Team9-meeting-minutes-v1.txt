@@ -2,7 +2,7 @@
 
 2012-03-26-Team9-meeting-minutes-v1.txt
 
-Version: 2012-03-29, with typo fix update 2012-04-22
+Version: 2012-03-29, with typo fix update 2012-04-22 
 Meeting date: 2012-03-26 (Monday)
 Meeting time: 12:00...13:30
 Meeting place: Aalto Venture Garage
