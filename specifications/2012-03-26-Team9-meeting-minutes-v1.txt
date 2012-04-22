@@ -2,6 +2,7 @@
 
 2012-03-26-Team9-meeting-minutes-v1.txt
 
+Version: 2012-03-29, with typo fix update 2012-04-22
 Meeting date: 2012-03-26 (Monday)
 Meeting time: 12:00...13:30
 Meeting place: Aalto Venture Garage
@@ -72,7 +73,7 @@ Further services (in addition to the gas stations) would be the
 - cafes and
 - car repair shops.
 
-The most important digitraffic based web services to be
+The most important Digitraffic based web services to be
 provided by the application would be to show the
 - traffic speed status (congested road parts with red color,
   normal speed monitored road with green color),
@@ -124,7 +125,7 @@ mobile device's display), but prioritizing the
 nearest ones.
 
 An other important function for the backend part of the application
-would be to aid the fomt end to have better performance by filtering
+would be to aid the front end to have better performance by filtering
 the amount of traffic web service data being sent to the front end.
 For example, the traffic data about traffic speeds (3300 km
 of roads currently being anonymously speed monitored),
@@ -132,7 +133,7 @@ road weather in different places, traffic disturbances
 etc. real time data could be coming partly with a high
 frequence from a web service (even with 1 minute interval),
 and the back end could filter only such information to be
-sent to the fron end which is relatively near to the
+sent to the front end which is relatively near to the
 current mobile device location. The mobile device on
 the other hand keeps the back end aware of the changes
 of the mobile device location.
@@ -147,6 +148,6 @@ Action points:
 
 - All team members to progress the ongoing earlier planned
 application work areas.
-- Kai to email more information about web serice APIs to be used
+- Kai to email more information about web service APIs to be used
 in the app.
 - Kai to combine status report files to be in one file from now on.
