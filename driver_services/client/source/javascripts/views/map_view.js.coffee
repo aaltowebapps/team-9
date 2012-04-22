@@ -2,10 +2,7 @@ class App.Views.MapView extends Backbone.View
   
   className: "map"
 
-
-
   initialize: =>
-    console.log("Rendering templates/examples/index in examples.js.coffee")
     myOptions =
       zoom: 13
       center: new google.maps.LatLng(60.166757, 24.943705)
@@ -59,8 +56,6 @@ class App.Views.MapView extends Backbone.View
     @placesLayer = new google.maps.places.PlacesService(@map)
     @placesLayer.search request, (results, status) =>
       if status is google.maps.places.PlacesServiceStatus.OK
-        i = 0
-        console.log "places ok"
         @markersArray = []
         for result in results
           place = result
@@ -75,3 +70,4 @@ class App.Views.MapView extends Backbone.View
   toggleOverlays: =>
     for marker in @markersArray
       marker.setMap if marker.getMap()? then null else @map
+
