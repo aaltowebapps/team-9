@@ -4,10 +4,10 @@ HTML5 course status report of week 16
 ======================================
 
 - In the application backend area: The non-cached web service
-  access be changed to be cached.
+  access changed to be cached.
 
 - New git directory structure and new software environment,
-  which contains 2 separate parts: Client (built with middleman
+  which contains 2 separate parts: Client (built with Middleman
   which is a Sinatra-based front end development framework), and
   Api, which is Rails based, without the view layer
   (https://github.com/spastorino/rails-api). Google Maps
