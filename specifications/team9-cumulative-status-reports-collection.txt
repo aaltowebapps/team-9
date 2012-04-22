@@ -4,7 +4,7 @@ HTML5 course status report of week 16
 ======================================
 
 - In the application backend area: The non-cached web service
-  access changed to be cached.
+  access changed to be cached. 
 
 - New git directory structure and new software environment,
   which contains 2 separate parts: Client (built with Middleman
