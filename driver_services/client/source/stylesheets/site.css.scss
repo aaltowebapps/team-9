@@ -41,8 +41,15 @@ a {
 
 #container {
   height: 100%;
+  padding-top: 40px;
+  box-sizing: border-box;
+  @media (max-width: 979px) {
+    padding-top: 50px;
+  }
 }
 
 .navbar-fixed-top {
   margin: 0;
+  position: fixed;
 }
+
