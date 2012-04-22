@@ -1,4 +1,29 @@
 
+HTML5 course status report of week 16
+(2012-04-16...2012-04-22):
+======================================
+
+- In the application backend area: The non-cached web service
+  access be changed to be cached.
+
+- New git directory structure and new software environment,
+  which contains 2 separate parts: Client (built with middleman
+  which is a Sinatra-based front end development framework), and
+  Api, which is Rails based, without the view layer
+  (https://github.com/spastorino/rails-api). Google Maps
+  is used in the client. 
+
+- Specification paper Driver-Services-phase1-general-description-v1.doc written.
+
+- Specification paper Driver-Services-phase1-road-info-description-v1.doc written.
+
+- General front end and back end development work continued.
+
+Coming in week 17:
+==================
+
+- Work continuing in all the areas.
+
 HTML5 course status report of weeks 14-15:
 (2012-04-02...2012-04-15, the Easter vacation was in between):
 ==============================================================
