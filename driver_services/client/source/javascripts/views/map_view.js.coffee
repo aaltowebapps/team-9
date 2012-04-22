@@ -2,10 +2,7 @@ class App.Views.MapView extends Backbone.View
   
   className: "map"
 
-
-
   initialize: =>
-    console.log("Rendering templates/examples/index in examples.js.coffee")
     myOptions =
       zoom: 13
       center: new google.maps.LatLng(60.166757, 24.943705)
