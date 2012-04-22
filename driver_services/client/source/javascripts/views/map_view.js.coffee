@@ -13,12 +13,9 @@ class App.Views.MapView extends Backbone.View
     @map = new google.maps.Map($(this.el)[0], myOptions)
     
     @trafficLayer = new google.maps.TrafficLayer()
-    @trafficLayer.setMap(@map)
 
     @weatherLayer = new google.maps.weather.WeatherLayer
       temperatureUnits: google.maps.weather.TemperatureUnit.CELCIUS
-
-    @weatherLayer.setMap(@map)
 
     if navigator.geolocation
       console.log "Geolocation is supported"
@@ -31,6 +28,8 @@ class App.Views.MapView extends Backbone.View
       @toggleLayer(@trafficLayer)
     $(".toggle-conditions").click =>
       @toggleLayer(@weatherLayer)
+
+    $(".toggle-traffic, .toggle-conditions").click()
     this
 
   toggleLayer: (layer) =>
