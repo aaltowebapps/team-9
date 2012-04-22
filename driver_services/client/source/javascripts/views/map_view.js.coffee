@@ -18,6 +18,18 @@ class App.Views.MapView extends Backbone.View
 
     weatherLayer.setMap(@map)
 
+    if navigator.geolocation
+      console.log "Geolocation is supported"
+      navigator.geolocation.getCurrentPosition(@currentPositionCallback)
+    else
+      console.log "No geolocation support"
+
   render: =>
     this
 
+
+  currentPositionCallback: (position) =>
+    console.log position
+    userCoordinates = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
+    console.log userCoordinates
+    @map.setCenter(userCoordinates)
