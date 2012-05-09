@@ -1,13 +1,23 @@
 class App.Views.MapView extends Backbone.View
   
-  className: "map"
+  template: JST["templates/map"]
 
+  # TODO: Figure out cleaner solution
   initialize: =>
+    @$el.removeClass("container")
+    @$el.addClass("map container-fluid")
+
+  render: =>
+    @$el.html(@template())
+    @renderMap()
+    @
+
+  renderMap: =>
     myOptions =
       zoom: 13
       center: new google.maps.LatLng(60.166757, 24.943705)
       mapTypeId: google.maps.MapTypeId.ROADMAP
-    @map = new google.maps.Map($(this.el)[0], myOptions)
+    @map = new google.maps.Map($("#map_canvas")[0], myOptions)
     
     @trafficLayer = new google.maps.TrafficLayer()
     @toggleLayer(@trafficLayer)
@@ -22,17 +32,7 @@ class App.Views.MapView extends Backbone.View
     else
       console.log "No geolocation support"
 
-
-  render: =>
-    $(".toggle-traffic").click =>
-      @toggleLayer(@trafficLayer)
-    $(".toggle-conditions").click =>
-      @toggleLayer(@weatherLayer)
-    $(".toggle-places").click =>
-      @toggleOverlays()
-
     $(".toggle-traffic, .toggle-conditions, .toggle-places").button("toggle")
-    this
 
   toggleLayer: (layer) =>
     layer.setMap(if layer.getMap()? then null else @map)
@@ -71,3 +71,13 @@ class App.Views.MapView extends Backbone.View
     for marker in @markersArray
       marker.setMap if marker.getMap()? then null else @map
 
+  toggleTrafficLayer: =>
+    @toggleLayer(@trafficLayer)
+
+  toggleWeatherLayer: =>
+    @toggleLayer(@weatherLayer)
+
+  events:
+    "click .toggle-traffic" : "toggleTrafficLayer"
+    "click .toggle-conditions" : "toggleWeatherLayer"
+    "click .toggle-places" : "toggleOverlays"

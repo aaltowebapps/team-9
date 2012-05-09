@@ -1,0 +1,17 @@
+<div class="row">
+  <div id="map_canvas">
+  </div>
+  <div class="navbar navbar-fixed-bottom">
+    <div class="navbar-inner">
+      <div class="container">
+        <div class="nav-collapse">
+            <div class="btn-group">
+              <button data-toggle="button" class="btn btn-primary toggle-traffic">Traffic</button>
+              <button data-toggle="button" class="btn btn-primary toggle-conditions">Driving conditions</button>
+              <button data-toggle="button" class="btn btn-primary toggle-places">Places</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
