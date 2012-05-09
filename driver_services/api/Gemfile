@@ -1,28 +1,40 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rails', '3.2.2'
+gem "rails", "3.2.2"
 
 # Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+# gem "rails", :git => "git://github.com/rails/rails.git"
 
-gem 'rails-api'
+gem "rails-api"
 
-gem 'sqlite3'
+gem "sqlite3"
 
 
-gem 'jquery-rails'
+gem "jquery-rails"
+
+group :test do
+  gem "cucumber-rails", :require => false
+  gem 'cucumber-api-steps', :require => false
+  gem "database_cleaner"
+  gem "spork"
+  gem "factory_girl"
+end
+
+group :test, :development do
+  gem "rspec-rails"
+end
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+# gem "bcrypt-ruby", "~> 3.0.0"
 
 # To use Jbuilder templates for JSON
-# gem 'jbuilder'
+# gem "jbuilder"
 
 # Use unicorn as the app server
-# gem 'unicorn'
+# gem "unicorn"
 
 # Deploy with Capistrano
-# gem 'capistrano', :group => :development
+# gem "capistrano", :group => :development
 
 # To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+# gem "ruby-debug19", :require => "ruby-debug"
