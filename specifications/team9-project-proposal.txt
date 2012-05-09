@@ -10,20 +10,20 @@ kaitsu (Kai Sjöblom)
 
 Description of the web application:
 
-This web application is a service promarly aimed for car travellers.
+This web application is a service primarily aimed for car travelers.
 First target area is the Espoo city in Finland but it could be
 expanded to cover the whole country without changing the web services
 used. The application architecture is to be made to support later
-scalability to other traveller service types too and the map
+scalability to other traveler service types too and the map
 usage will be performance engineered to suit hand held devices.
 
 Initially planned key use cases:
 1. Retrieving real time traffic information from server from
-   nearhood or a desired map area (speed, road photos, traffic disturbances).
+   a nearby area or a desired map area (speed, road photos, traffic disturbances).
 2. Retrieving journey weather forecast information from web
    (road temperature etc.).
-3. Retrieving information of relevant car traveller's services.
-   (e.g. gas stations, hotels, cafes).
+3. Retrieving information of relevant car traveler’s services.
+   (E.g. gas stations, hotels, cafes).
 4. In addition to a map view, the above information can also
    be shown in a list view (containing e.g. hotel addresses and contact data,
    with further web links).
@@ -43,13 +43,13 @@ b) Samsung Galaxy Nexus (Android OS)
 
 How it fulfills the assignment criteria:
 1. HTML5 key APIs
-- Offline storage for last used used view type (map/list),
+- Offline storage for last used view type (map/list),
   last location coordinates, etc.
 2. Mobile device features
-- Retrieval of the geolocation of the hand held device.
+- Retrieval of the geographic location of the hand held device.
 3. Client / server communication
 - RESTful communication for retrieving road traffic related information and
-  local traveller services of interest especially to car travellers.
+  local traveler services of interest especially to car travelers.
 
 
 Initial work roles (later contributions to other areas are possible too):

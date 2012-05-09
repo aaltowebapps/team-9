@@ -1,13 +1,55 @@
+HTML5 course status report of week 18 & 17
+(2012-04-23...2012-05-06, including a short Vappu break):
+=========================================================
+
+- A 2012-04-23 level demo of the Driver Services presented
+  at the Mobile Web Applications course lecture. This
+  version contained traffic load indicators for the key roads
+  and basic visual gas station location information on a map
+  display.
+
+- Specification paper Driver-Services-Communications-API-v1.doc
+  being written.
+
+- General front end and back end development work continued.
+
+Coming in week 19 and later:
+============================
+
+- The digitraffic information filtering and offering to be
+  implemented in the back end and its information retrieval is to
+  supported in the front end, to provide higer granularity
+  data to the browser user and to provide more information types.
+
+- Point of Service demo data to be added to the back end.
+  The Point of Service data would be implemented at least in
+  the final phase to a separate, loadable data file.
+  The data file could be e.g. an Excel generated CSV format file,
+  which is pre-provided for the application back end software.
+  (The loadable POS data file would contain e.g. the address
+  and contact data for gas stations (later also hotel data and some
+  cafe data in the Espoo region. Espoo city is the supported Driver
+  Services service coverage area in the course assignment demo.)
+ 
+- Front end GUI to offer  alist view (providing e.g. the precise
+  gas station point of service adress and contact data) in
+  addition to the map view.
+
+- A link to a live demo of Driver Services webapp is to be added to
+  the web page http://aaltowebapps.com/
+
+- Work continuing in all the areas.
+
 
 HTML5 course status report of week 16
 (2012-04-16...2012-04-22):
 ======================================
 
 - In the application backend area: The non-cached web service
-  access be changed to be cached.
+  access changed to be cached. 
 
 - New git directory structure and new software environment,
-  which contains 2 separate parts: Client (built with middleman
+  which contains 2 separate parts: Client (built with Middleman
   which is a Sinatra-based front end development framework), and
   Api, which is Rails based, without the view layer
   (https://github.com/spastorino/rails-api). Google Maps
