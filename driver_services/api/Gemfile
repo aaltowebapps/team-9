@@ -9,6 +9,8 @@ gem "rails-api"
 
 gem "sqlite3"
 
+gem "spreadsheet", :require => false
+
 
 gem "jquery-rails"
 
