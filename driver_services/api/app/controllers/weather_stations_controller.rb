@@ -1,8 +1,8 @@
 class WeatherStationsController < ApplicationController
 
   def index
-    @weather_station = WeatherStation.all
-    render :json => @weather_station
+    @weather_stations = WeatherStation.all
+    render :json => @weather_stations.to_json
   end
 
   def show
