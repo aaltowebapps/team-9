@@ -9,6 +9,7 @@ Proxies (and simplifies) the [digitraffic API](http://www.infotripla.fi/digitraf
 ## Setting up the database
 
 `rake db:migrate`
+
 `rake import:weather_stations`
 
 ## Running the tests
