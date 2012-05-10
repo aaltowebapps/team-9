@@ -11,6 +11,8 @@ gem "sqlite3"
 
 gem "spreadsheet", :require => false
 
+gem "savon", :require => false
+
 
 gem "jquery-rails"
 

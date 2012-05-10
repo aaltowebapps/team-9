@@ -1,14 +1,15 @@
 require "open-uri"
 require "spreadsheet"
-namespace :import do
+require "savon"
+namespace :load do
 
-    desc "load weather stations from excel"
+    desc "load weather stations from excel provided by digitraffic"
     task :weather_stations => :environment do
 
-      excel_url = "http://www.infotripla.fi/digitraffic/docs/Meta_RWS_stations_ver20101130.xls"
+      EXCEL_URL = "http://www.infotripla.fi/digitraffic/docs/Meta_RWS_stations_ver20101130.xls"
 
       excel = nil
-      open(excel_url) do |f|
+      open(EXCEL_URL) do |f|
         excel = Spreadsheet.open f
       end
 
@@ -28,6 +29,26 @@ namespace :import do
         puts "Could not open the excel file"
       end
       
+    end
+
+    desc "load observation data from digitraffic api"
+    task :observation_data => :environment do 
+      SETTINGS = YAML::load(IO.read(File.join(Rails.root, 'config', 'settings.yml')))
+
+      client = Savon::Client.new do
+        wsdl.document = "http://stp.gofore.com/sujuvuus/ws/roadWeather?wsdl"
+        http.auth.basic(SETTINGS["username"], SETTINGS["password"])
+      end
+
+      observations = client.request("road_weather").to_hash[:road_weather_response][:roadweatherdata][:roadweather]
+
+      observations.each do |observation|
+        od = ObservationData.find_or_initialize_by_weather_station_id(observation[:stationid])
+        od.temperature = observation[:airtemperature1]
+        od.visibility = observation[:visibility]
+        od.save
+      end
+
     end
 
 end
