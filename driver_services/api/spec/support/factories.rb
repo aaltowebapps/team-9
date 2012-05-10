@@ -2,7 +2,8 @@ require "factory_girl"
 
 FactoryGirl.define do
   factory :weather_station do 
-    location "u4pruydqqvj"
+    latitude 60.1234
+    longitude 24.5432
     road 1
   end
 end
