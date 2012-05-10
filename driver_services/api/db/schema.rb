@@ -11,14 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120509214353) do
+ActiveRecord::Schema.define(:version => 20120510161420) do
+
+  create_table "observation_data", :force => true do |t|
+    t.integer  "temperature"
+    t.integer  "visibility"
+    t.integer  "weather_station_id"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
 
   create_table "weather_stations", :force => true do |t|
     t.string   "location"
-    t.integer  "temperature"
-    t.integer  "visibility"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.string   "road"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end
