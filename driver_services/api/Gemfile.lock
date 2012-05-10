@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/josevalim/active_model_serializers.git
+  revision: a2d73faa63355e897873b4813b08d2db5f4a3617
+  specs:
+    active_model_serializers (0.1.0)
+      activemodel (~> 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -158,6 +165,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_model_serializers!
   cucumber-api-steps
   cucumber-rails
   database_cleaner

@@ -12,6 +12,7 @@ gem "sqlite3"
 
 gem "jquery-rails"
 
+gem "active_model_serializers", :git => "git://github.com/josevalim/active_model_serializers.git"
 
 group :development do
   gem "guard-cucumber"
