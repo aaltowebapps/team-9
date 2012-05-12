@@ -1,8 +1,12 @@
 class WeatherStationsController < ApplicationController
 
   def index
-    @weather_stations = WeatherStation.all
-    render :json => @weather_stations.to_json
+    if params[:road]
+      @weather_stations = WeatherStation.find_all_by_road(params[:road])
+    else
+      @weather_stations = WeatherStation.page(params[:page])
+    end
+    render :json => @weather_stations.map {|c| WeatherStationArraySerializer.new(c) }.to_json
   end
 
   def show
