@@ -13,6 +13,8 @@ gem "spreadsheet", :require => false
 
 gem "savon", :require => false
 
+gem "kaminari"
+
 
 gem "jquery-rails"
 
