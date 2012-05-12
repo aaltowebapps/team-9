@@ -24,7 +24,8 @@ end
 
 group :test do
   gem "cucumber-rails", :require => false
-  gem 'cucumber-api-steps', :require => false
+  gem "cucumber-api-steps", :require => false
+  gem "json_spec", :require => false
   gem "database_cleaner"
   gem "spork"
   gem "factory_girl"

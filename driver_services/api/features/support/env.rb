@@ -5,10 +5,11 @@
 # files.
 
 require "cucumber/rails"
-require "rubygems"
 require "cucumber/api_steps"
+require "rubygems"
 require "spork"
 require "factory_girl/step_definitions"
+require "json_spec/cucumber"
 
 Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
  
