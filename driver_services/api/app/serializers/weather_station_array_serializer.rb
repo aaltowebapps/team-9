@@ -1,4 +1,4 @@
 class WeatherStationArraySerializer < ActiveModel::Serializer
-  attributes :id, :latitude, :longitude, :road
+  attributes :id, :station_number, :location, :road, :observation_data
   root nil
 end
