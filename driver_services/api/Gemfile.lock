@@ -79,6 +79,8 @@ GEM
     guard-cucumber (0.7.5)
       cucumber (>= 0.10)
       guard (>= 0.8.3)
+    guard-rspec (0.7.0)
+      guard (>= 0.10.0)
     gyoku (0.4.4)
       builder (>= 2.1.2)
     hike (1.2.1)
@@ -213,6 +215,7 @@ DEPENDENCIES
   database_cleaner
   factory_girl
   guard-cucumber
+  guard-rspec
   jquery-rails
   json_spec
   kaminari

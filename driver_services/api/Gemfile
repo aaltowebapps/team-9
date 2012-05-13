@@ -25,12 +25,13 @@ gem "active_model_serializers", :git => "git://github.com/josevalim/active_model
 
 group :development do
   gem "guard-cucumber"
+  gem "guard-rspec"
 end
 
 group :test do
   gem "cucumber-rails", :require => false
   gem "cucumber-api-steps", :require => false
-  gem "json_spec", :require => false
+  gem "json_spec"
   gem "database_cleaner"
   gem "spork"
   gem "factory_girl"
