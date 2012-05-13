@@ -3,6 +3,7 @@ class WeatherStationsController < ApplicationController
   def index
     example = WeatherStation.new(params[:weather_station])
     @weather_stations = WeatherStation.find_all_by_example(example)
+                                      .excludes(location: [0, 0], observation_data: nil)
                                       .order_by([[:station_number, :asc]])
                                       .page(params[:page])
 
