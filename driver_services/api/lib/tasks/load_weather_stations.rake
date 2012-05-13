@@ -8,20 +8,26 @@ namespace :load do
 
       EXCEL_URL = "http://www.infotripla.fi/digitraffic/docs/Meta_RWS_stations_ver20101130.xls"
 
+      puts "Loading url"
+
       excel = nil
       open(EXCEL_URL) do |f|
         excel = Spreadsheet.open f
       end
 
       if excel 
+        puts "Loading excel"
+
         Spreadsheet.client_encoding = "UTF-8"
         sheet = excel.worksheet(0)
 
         sheet.each 12 do |row|
-          ws = WeatherStation.find_or_initialize_by_id(row[0])
+          ws = WeatherStation.find_or_initialize_by(:station_number => row[0].to_i)
+          ws.station_number = row[0].to_i
           ws.road = row[2].to_i
-          ws.latitude = sprintf( "%0.04f", row[12] + row[13] / 60 + row[14] / (60 * 60) ) rescue nil
-          ws.longitude = sprintf( "%0.04f", row[15] + row[16] / 60 + row[17] / (60 * 60) ) rescue nil
+          latitude = sprintf( "%0.04f", row[12] + row[13] / 60 + row[14] / (60 * 60) ).to_f rescue 0
+          longitude = sprintf( "%0.04f", row[15] + row[16] / 60 + row[17] / (60 * 60) ).to_f rescue 0
+          ws.location = [latitude, longitude]
           ws.save
         end
 
@@ -43,10 +49,15 @@ namespace :load do
       observations = client.request("road_weather").to_hash[:road_weather_response][:roadweatherdata][:roadweather]
 
       observations.each do |observation|
-        od = ObservationData.find_or_initialize_by_weather_station_id(observation[:stationid])
-        od.temperature = observation[:airtemperature1]
-        od.visibility = observation[:visibility]
-        od.save
+        begin 
+          ws = WeatherStation.first(:conditions => { :station_number => observation[:stationid] } )
+          ws.observation_data = ObservationData.new
+          ws.observation_data.temperature = observation[:airtemperature1]
+          ws.observation_data.visibility = observation[:visibility]
+          ws.save
+        rescue
+          puts "Warning: no weather station found with station number #{observation[:stationid]}"
+        end
       end
 
     end
