@@ -53,7 +53,7 @@ namespace :load do
           ws = WeatherStation.first(:conditions => { :station_number => observation[:stationid] } )
           ws.observation_data = ObservationData.new
           ws.observation_data.temperature = observation[:airtemperature1]
-          ws.observation_data.visibility = observation[:visibility]
+          ws.observation_data.visibility = observation[:visibilitymeters]
           ws.save
         rescue
           puts "Warning: no weather station found with station number #{observation[:stationid]}"
