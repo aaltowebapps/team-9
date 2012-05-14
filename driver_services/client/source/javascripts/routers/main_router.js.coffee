@@ -1,12 +1,27 @@
 class App.Routers.Main extends Backbone.Router
+
+  
+
   routes:
-    '': 'index'
+    "" : "search"
+    "info" : "info"
+    "map" : "map"
 
   initialize: ->
     @collection = new App.Collections.Examples()
     @collection.fetch()
-                
-  index: ->
-    view = new App.Views.MapView()
-    console.log("Inserting rendered content from App.Views.Map into #container")
-    $('#container').html(view.render().el)
+     
+  search: ->
+    console.log "Rendering search view"
+    view = new App.Views.SearchView(el: $("#dynamic"))
+    view.render()
+
+  info: ->
+    console.log "Rendering info view"
+    view = new App.Views.InfoView(el: $("#dynamic"))
+    view.render()
+
+  map: ->
+    console.log "Rendering map view"
+    view = new App.Views.MapView(el: $('#dynamic'), className: "map")
+    view.render().el
