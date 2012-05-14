@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120510191302) do
+ActiveRecord::Schema.define(:version => 20120512134458) do
 
   create_table "observation_data", :force => true do |t|
     t.integer  "temperature"
@@ -22,9 +22,9 @@ ActiveRecord::Schema.define(:version => 20120510191302) do
   end
 
   create_table "weather_stations", :force => true do |t|
-    t.string   "road"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "road",       :limit => 255
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
     t.float    "latitude"
     t.float    "longitude"
   end

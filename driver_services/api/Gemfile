@@ -9,9 +9,14 @@ gem "rails-api"
 
 gem "sqlite3"
 
+gem "mongoid"
+gem "bson_ext"
+
 gem "spreadsheet", :require => false
 
 gem "savon", :require => false
+
+gem "kaminari"
 
 
 gem "jquery-rails"
@@ -20,11 +25,13 @@ gem "active_model_serializers", :git => "git://github.com/josevalim/active_model
 
 group :development do
   gem "guard-cucumber"
+  gem "guard-rspec"
 end
 
 group :test do
   gem "cucumber-rails", :require => false
-  gem 'cucumber-api-steps', :require => false
+  gem "cucumber-api-steps", :require => false
+  gem "json_spec"
   gem "database_cleaner"
   gem "spork"
   gem "factory_girl"
@@ -34,6 +41,7 @@ end
 group :test, :development do
   gem "rspec-rails"
   gem "shoulda-matchers"
+  gem "mongoid-rspec"
 end
 
 # To use ActiveModel has_secure_password
