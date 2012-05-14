@@ -1,7 +1,7 @@
 <div class="page-header">
     <h1>Driver Services <small>Where do you want to go today?</small></h1>
 </div>
-  <form class="well form-search">
+  <form class="well form-search" action="">
     <input type="text" class="input-large" placeholder="Place you want to go">
     <button type="submit" class="btn btn-primary btn-large">Go</button>
   </form>
