@@ -1,3 +1,65 @@
+
+HTML5 course status report of week 19
+(2012-05-07...2012-05-13:
+==========================================
+
+- A draft of the brief description poster of the team's
+  application was made.
+
+- A data file for Point of Service information as an Excel
+  file was made "Driver-Services-Service-Point-Table.xls"
+  (this master file is stored in Excel 97-2003 Workbook format).
+  From that a simpler format CSV (Comma Separated Value format file
+  "Driver-Services-Service-Point-Table.csv" was generated.
+  At first this data file is for gas stations, and of them including
+  first the ABC service point chain.
+  The loadable Point Of Service data file contains also e.g. the address
+  and contact data for gas stations. Later also hotel data and some
+  cafe data in the Espoo region can be included. Espoo city is
+  the chosen supported Driver Services service coverage area
+  in the course assignment demo.
+  It is intended that the Driver Services application back end
+  reads the .csv file at startup to RAM memory and fills the
+  latitude and longitude data (by converting street addresses
+  to coordinates), in case the Service Provider company has
+  not provided already the coordinates via the Excel table
+  (which is the case in this demo).
+  The application front end UI might also be tested with the
+  same Point-of-Service data file, if such stand-alone type of
+  modular pre-testing is wanted for that.
+
+- General front end and back end development work continued.
+
+- Specification paper Driver-Services-Communications-API-v1.doc
+  been under writing.
+
+Coming in week 20 and later:
+============================
+
+- The description poster of the team's application to become ready.
+
+- The digitraffic information filtering and offering to be
+  implemented in the back end and its information retrieval is to
+  supported in the front end, to provide higer granularity
+  data to the browser user and to provide more information types.
+
+- Point of Service demo data to be added to the back end.
+  The Point of Service data would be implemented at least in
+  the final phase to a separate, loadable data file.
+ 
+- The front end GUI could be able to offer a list view also (providing e.g.
+  the precise gas station point of service adress and contact data)
+  in addition to the map view. This anyhow on the 2nd priority feature
+  list (=not yet confirmed), what comes to the demo date 2012-05-21.
+
+- A link to a live demo of Driver Services webapp is to be added to
+  the web page http://aaltowebapps.com/ . Correspondingly,
+  a link to a live demo of Driver Services webapp is to be added to
+  the poster too, which is to have a working QR-coded image link for that.
+
+- In general, work will continue in all the areas with increased speed.
+
+
 HTML5 course status report of week 18 & 17
 (2012-04-23...2012-05-06, including a short Vappu break):
 =========================================================
@@ -31,7 +93,7 @@ Coming in week 19 and later:
   cafe data in the Espoo region. Espoo city is the supported Driver
   Services service coverage area in the course assignment demo.)
  
-- Front end GUI to offer  alist view (providing e.g. the precise
+- Front end GUI to offer a list view (providing e.g. the precise
   gas station point of service adress and contact data) in
   addition to the map view.
 
