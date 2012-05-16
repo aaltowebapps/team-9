@@ -1,0 +1,8 @@
+Application name:;Driver Services;Application file format version:;1;Data date:;2012-04-22;Language:;English;;;;;
+Type of Service;Company;Name of Service Point;Street address;Postal code;City;Phone 1;Phone 2;Web address;Email address;Notes;Longitude;Latitude
+Gas station;ABC;ABC Automaatti Espoo Otaniemi;Miestentie 1;02150;Espoo;010 76 82188;;http://www.abcasemat.fi/verkosto/automaatit/espoo;;24h;;
+Gas station;ABC;ABC Automaatti Espoo Niittykumpu;Niittymaantie 4;02630;Espoo;;;http://www.abcasemat.fi/verkosto/automaatit/niittykumpu_aut;;24h;;
+Gas station;ABC;ABC Nihtisilta Espoo;Nihtisilta 4 (Kauniaistentie);02630;Espoo;010 76 66730;;http://www.abcasemat.fi/verkosto/liikennemyymalat/espoo_nihtisilta;lm.nihtisilta@sok.fi;24h;;
+Gas station;ABC;ABC Deli Pohjois-Tapiola;Kalevalantie 3;02100;Espoo;010 76 66930;;http://www.abcasemat.fi/verkosto/liikennemyymalat/deli_tapiola;deli.pohjois-tapiola@sok.fi;24h;;
+Gas station;ABC;ABC Deli Mikkelä;Mikkelänkallio 1;02770;Espoo;010 76 66920;;http://www.abcasemat.fi/verkosto/liikennemyymalat/deli_mikkela_espoo;abcdeli.mikkela@sok.fi;6-22 / su 11-21;;
+Gas station;ABC;ABC Deli Espoonlahti Espoo;Nöykkiönkatu 2;02300;Espoo;010 76 66800;;http://www.abcasemat.fi/verkosto/liikennemyymalat/abc_espoonlahti_espoo;lm.abcespoonlahti@sok.fi;6-22 / su 11-21;;
