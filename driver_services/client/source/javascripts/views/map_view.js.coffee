@@ -48,6 +48,8 @@ class App.Views.MapView extends Backbone.View
       types: [ "gas_station" ]
 
 
+
+
     @placesLayer = new google.maps.places.PlacesService(@map)
     @placesLayer.search request, (results, status) =>
       if status is google.maps.places.PlacesServiceStatus.OK
@@ -58,6 +60,8 @@ class App.Views.MapView extends Backbone.View
             position: result.geometry.location
             map: @map
             title: result.name
+            icon: '/img/gas_station.png'
+
 
       else
         console.log status
