@@ -2,10 +2,14 @@ class App.Views.MapView extends Backbone.View
   
   template: JST["templates/map"]
 
-  # TODO: Figure out cleaner solution
-  initialize: =>
+  
+  initialize: (options) =>
+    # TODO: Figure out cleaner solution
     @$el.removeClass("container")
     @$el.addClass("map container-fluid")
+
+    @userLocation = if options.location then new google.maps.LatLng(options.latitude, options.longitude) else new google.maps.LatLng(41.886943,-87.664719)
+    console.log @userLocation
 
   render: =>
     @$el.html(@template())
@@ -15,8 +19,8 @@ class App.Views.MapView extends Backbone.View
   renderMap: =>
     myOptions =
       zoom: 13
-      center: new google.maps.LatLng(60.166757, 24.943705)
       mapTypeId: google.maps.MapTypeId.ROADMAP
+      center: @userLocation
     @map = new google.maps.Map($("#map_canvas")[0], myOptions)
     
     @trafficLayer = new google.maps.TrafficLayer()
@@ -26,11 +30,7 @@ class App.Views.MapView extends Backbone.View
       temperatureUnits: google.maps.weather.TemperatureUnit.CELCIUS
     @toggleLayer(@weatherLayer)
 
-    if navigator.geolocation
-      console.log "Geolocation is supported"
-      navigator.geolocation.getCurrentPosition(@currentPositionCallback)
-    else
-      console.log "No geolocation support"
+    @setupPlaces()
 
     $(".toggle-traffic, .toggle-conditions, .toggle-places").button("toggle")
 
@@ -39,14 +39,9 @@ class App.Views.MapView extends Backbone.View
 
 
   currentPositionCallback: (position) =>
-    @userLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
-    @map.setCenter(@userLocation)
-
-    @setupPlaces()
 
 
   setupPlaces: =>
-    pyrmont = new google.maps.LatLng(-33.8665433, 151.1956316)
     request =
       location: @userLocation
       radius: "5000"

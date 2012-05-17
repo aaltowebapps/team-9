@@ -3,12 +3,18 @@
 </div>
 <div class="">
 	<h2>Start</h2>
+  <p><%= @start_address %></p>
 	<h2>Stop</h2>
+  <p><%= @end_address %></p>
 	<h3>Duration</h3>
+  <p><%= @duration %></p>
 	<h2>Warnings:<h2>
 
 	<img src="/img/glyphicons_021_snowflake.png"/>
 	<img src="/img/glyphicons_026_road.png"/>
 	<img src="/img/glyphicons_078_warning_sign.png"/>
 	<img src="/img/glyphicons_092_tint.png"/>
+  <div class="form-actions">
+    <a href="#map" class="btn btn-large">To the map!</a>
+  </div>
 </div>

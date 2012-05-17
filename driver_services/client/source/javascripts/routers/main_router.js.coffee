@@ -1,7 +1,5 @@
 class App.Routers.Main extends Backbone.Router
 
-  
-
   routes:
     "" : "search"
     "info" : "info"
