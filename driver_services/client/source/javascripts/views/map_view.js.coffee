@@ -66,6 +66,23 @@ class App.Views.MapView extends Backbone.View
       else
         console.log status
 
+    directionsRenderer = new google.maps.DirectionsRenderer()
+    directionsRenderer.setMap @map
+    directionsRenderer.setPanel document.getElementById("directionsPanel")
+    directionsService = new google.maps.DirectionsService()
+    request =
+      origin: "316 N Laflin St, Chicago, IL 60607, USA"
+      destination: "Los Angeles, CA"
+      travelMode: google.maps.DirectionsTravelMode.DRIVING
+      unitSystem: google.maps.DirectionsUnitSystem.METRIC
+
+    directionsService.route request, (response, status) ->
+      if status is google.maps.DirectionsStatus.OK
+        directionsRenderer.setDirections response
+        
+      else
+        alert "Error: " + status
+
   toggleOverlays: =>
     for marker in @markersArray
       marker.setMap if marker.getMap()? then null else @map
