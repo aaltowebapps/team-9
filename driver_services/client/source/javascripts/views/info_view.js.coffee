@@ -3,12 +3,18 @@ class App.Views.InfoView extends Backbone.View
   template: JST["templates/info"]
 
   initialize: (options) =>
-    service = new google.maps.DirectionsService()
+    console.log sessionStorage
+    userLocationArray = JSON.parse(sessionStorage.getItem("userLocation"))
+    userLocation = new google.maps.LatLng(userLocationArray.latitude, userLocationArray.longitude)
+
+    userDestination = sessionStorage.getItem("userDestination")
 
     request =
-      origin: if options.origin? then options.origin else new google.maps.LatLng(41.886943,-87.664719)
-      destination: if options.destination? then options.destination else "Los Angeles, CA"
+      origin: userLocation
+      destination: userDestination
       travelMode: google.maps.TravelMode.DRIVING
+
+    service = new google.maps.DirectionsService()
 
     service.route request, (response, status) =>
       console.log response, status

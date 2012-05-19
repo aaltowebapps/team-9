@@ -19,10 +19,13 @@ class App.Views.SearchView extends Backbone.View
 
 
   currentPositionCallback: (position) =>
-    @userLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
+    sessionStorage.setItem("userLocation", JSON.stringify(position.coords))
 
-  onSearchFormSubmit: (event) =>
-    console.log "foo"
+  onSearchFormSubmit: (event) ->
+    event.preventDefault()
+    sessionStorage.setItem("userDestination", $('input[name=destination]').val())
+    Backbone.history.navigate("info", true)
+
 
   events:
     "submit #search_form" : "onSearchFormSubmit"

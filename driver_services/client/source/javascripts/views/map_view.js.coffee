@@ -8,8 +8,8 @@ class App.Views.MapView extends Backbone.View
     @$el.removeClass("container")
     @$el.addClass("map container-fluid")
 
-    @userLocation = if options.location then new google.maps.LatLng(options.latitude, options.longitude) else new google.maps.LatLng(41.886943,-87.664719)
-    console.log @userLocation
+    userLocationArray = JSON.parse(sessionStorage.getItem("userLocation"))
+    @userLocation = new google.maps.LatLng(userLocationArray.latitude, userLocationArray.longitude)
 
   render: =>
     @$el.html(@template())
