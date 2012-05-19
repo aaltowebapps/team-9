@@ -6,19 +6,24 @@ class App.Routers.Main extends Backbone.Router
     "map" : "map"
 
   initialize: ->
-    $("#dynamic").before( new App.Views.HeaderView().render().el )
+    if navigator.geolocation
+      navigator.geolocation.getCurrentPosition(@currentPositionCallback)
+    else
+      console.log "No geolocation support"
+
+    @header = new App.Views.HeaderView(el: $("#header"))
+
+  currentPositionCallback: (position) =>
+    sessionStorage.setItem("userLocation", JSON.stringify(position.coords))
      
   search: ->
-    console.log "Rendering search view"
-    view = new App.Views.SearchView(el: $("#dynamic"))
-    view.render()
+    view = new App.Views.SearchView()
+    @header.setActive(".home")
 
   info: ->
-    console.log "Rendering info view"
-    view = new App.Views.InfoView(el: $("#dynamic"))
-    view.render()
+    view = new App.Views.InfoView()
+    @header.setActive(".info")
 
   map: ->
-    console.log "Rendering map view"
-    view = new App.Views.MapView(el: $('#dynamic'), className: "map")
-    view.render().el
+    view = new App.Views.MapView()
+    @header.setActive(".map")

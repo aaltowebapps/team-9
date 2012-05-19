@@ -1,17 +1,16 @@
-class App.Views.MapView extends Backbone.View
+class App.Views.MapView extends App.Views.Page
   
   template: JST["templates/map"]
 
+  className: "map"
   
   initialize: (options) =>
-    # TODO: Figure out cleaner solution
-    @$el.removeClass("container")
-    @$el.addClass("map container-fluid")
-
     userLocationArray = JSON.parse(sessionStorage.getItem("userLocation"))
     @userLocation = new google.maps.LatLng(userLocationArray.latitude, userLocationArray.longitude)
 
     @userDestination = sessionStorage.getItem("userDestination")
+
+    super
 
   render: =>
     @$el.html(@template())
@@ -34,6 +33,8 @@ class App.Views.MapView extends Backbone.View
 
     @setupPlaces()
 
+    @setupDirections() if @userDestination?
+
     $(".toggle-traffic, .toggle-conditions, .toggle-places").button("toggle")
 
   toggleLayer: (layer) =>
@@ -49,9 +50,6 @@ class App.Views.MapView extends Backbone.View
       radius: "5000"
       types: [ "gas_station" ]
 
-
-
-
     @placesLayer = new google.maps.places.PlacesService(@map)
     @placesLayer.search request, (results, status) =>
       if status is google.maps.places.PlacesServiceStatus.OK
@@ -63,11 +61,11 @@ class App.Views.MapView extends Backbone.View
             map: @map
             title: result.name
             icon: '/img/gas_station.png'
-
-
       else
         console.log status
 
+
+  setupDirections: =>
     directionsRenderer = new google.maps.DirectionsRenderer()
     directionsRenderer.setMap @map
     directionsRenderer.setPanel document.getElementById("directionsPanel")
@@ -81,7 +79,6 @@ class App.Views.MapView extends Backbone.View
     directionsService.route request, (response, status) ->
       if status is google.maps.DirectionsStatus.OK
         directionsRenderer.setDirections response
-        
       else
         alert "Error: " + status
 

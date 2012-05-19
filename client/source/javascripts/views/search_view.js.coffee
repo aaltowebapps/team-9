@@ -1,25 +1,11 @@
-class App.Views.SearchView extends Backbone.View
+class App.Views.SearchView extends App.Views.Page
   
   template: JST["templates/search"]
-
-  initialize: =>
-    @$el.removeClass("map container-fluid")
-    @$el.addClass("container")
-
-    if navigator.geolocation
-      console.log "Geolocation is supported"
-      navigator.geolocation.getCurrentPosition(@currentPositionCallback)
-    else
-      console.log "No geolocation support"
+  el: "#dynamic"
 
   render: =>
-    console.log @$el
     @$el.html(@template())
     @
-
-
-  currentPositionCallback: (position) =>
-    sessionStorage.setItem("userLocation", JSON.stringify(position.coords))
 
   onSearchFormSubmit: (event) ->
     event.preventDefault()

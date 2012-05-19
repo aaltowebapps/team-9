@@ -1,13 +1,18 @@
-class App.Views.InfoView extends Backbone.View
+class App.Views.InfoView extends App.Views.Page
   
   template: JST["templates/info"]
 
+  DEFAULT_LOCATION = "Helsinki"
+
   initialize: (options) =>
     console.log sessionStorage
-    userLocationArray = JSON.parse(sessionStorage.getItem("userLocation"))
-    userLocation = new google.maps.LatLng(userLocationArray.latitude, userLocationArray.longitude)
+    if(rawData = sessionStorage.getItem("userLocation"))
+      userLocationArray = JSON.parse(rawData)
+      userLocation = new google.maps.LatLng(userLocationArray.latitude, userLocationArray.longitude)
+    else
+      userLocation = DEFAULT_LOCATION
 
-    userDestination = sessionStorage.getItem("userDestination")
+    userDestination = sessionStorage.getItem("userDestination") || DEFAULT_LOCATION
 
     request =
       origin: userLocation
@@ -27,9 +32,7 @@ class App.Views.InfoView extends Backbone.View
       else
         console.log status
 
-
-    @$el.removeClass("map container-fluid")
-    @$el.addClass("container")
+    super
 
 
   render: =>

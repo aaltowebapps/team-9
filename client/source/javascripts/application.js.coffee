@@ -6,5 +6,6 @@
 #= require_tree "./templates"
 #= require_tree "./models"
 #= require_tree "./collections"
+#= require "./views/page"
 #= require_tree "./views"
 #= require_tree "./routers"
