@@ -6,8 +6,6 @@ class App.Routers.Main extends Backbone.Router
     "map" : "map"
 
   initialize: ->
-    @collection = new App.Collections.Examples()
-    @collection.fetch()
      
   search: ->
     console.log "Rendering search view"
