@@ -7,8 +7,6 @@ gem "rails", "3.2.2"
 
 gem "rails-api"
 
-gem "sqlite3"
-
 gem "mongoid"
 gem "bson_ext"
 
