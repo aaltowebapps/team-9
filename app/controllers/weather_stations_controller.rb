@@ -7,6 +7,8 @@ class WeatherStationsController < ApplicationController
                                       .order_by([[:station_number, :asc]])
                                       .page(params[:page])
 
+    raise @weather_stations.count.to_s
+
     render :json => @weather_stations.map {|c| WeatherStationArraySerializer.new(c) }.to_json
   end
 
