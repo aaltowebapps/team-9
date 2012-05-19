@@ -12,6 +12,8 @@ class WeatherStationsController < ApplicationController
 
     logger.debug @weather_stations.inspect
 
+    logger.debug WeatherStation.count
+
 
     render :json => @weather_stations.map {|c| WeatherStationArraySerializer.new(c) }.to_json
   end
