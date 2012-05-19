@@ -39,7 +39,13 @@ namespace :load do
 
     desc "load observation data from digitraffic api"
     task :observation_data => :environment do 
-      SETTINGS = YAML::load(IO.read(File.join(Rails.root, 'config', 'settings.yml')))
+      if ENV["DIGITRAFFIC_USERNAME"] && ENV["DIGITRAFFIC_PASSWORD"]
+        SETTINGS = Hash.new
+        SETTINGS["username"] = ENV["DIGITRAFFIC_USERNAME"]
+        SETTINGS["password"] = ENV["DIGITRAFFIC_PASSWORD"]
+      else
+        SETTINGS = YAML::load(IO.read(File.join(Rails.root, 'config', 'settings.yml')))
+      end
 
       client = Savon::Client.new do
         wsdl.document = "http://stp.gofore.com/sujuvuus/ws/roadWeather?wsdl"
