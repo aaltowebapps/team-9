@@ -19,8 +19,8 @@
           <li><a href="#info">Info</a></li>
           <li><a href="#map">Map</a></li>
         </ul>
-        <form class="navbar-search pull-left">
-          <input type="text" class="search-query" placeholder="Search">
+        <form class="navbar-search pull-left" id="header_search_form">
+          <input name="destination" type="text" class="search-query" placeholder="Enter new destination">
         </form>
       </div>
  

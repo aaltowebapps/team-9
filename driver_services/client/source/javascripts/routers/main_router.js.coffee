@@ -6,6 +6,7 @@ class App.Routers.Main extends Backbone.Router
     "map" : "map"
 
   initialize: ->
+    $("#dynamic").before( new App.Views.HeaderView().render().el )
      
   search: ->
     console.log "Rendering search view"

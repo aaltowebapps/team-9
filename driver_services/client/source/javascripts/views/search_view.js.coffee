@@ -23,7 +23,7 @@ class App.Views.SearchView extends Backbone.View
 
   onSearchFormSubmit: (event) ->
     event.preventDefault()
-    sessionStorage.setItem("userDestination", $('input[name=destination]').val())
+    sessionStorage.setItem("userDestination", @$('input[name=destination]').val())
     Backbone.history.navigate("info", true)
 
 
