@@ -11,6 +11,8 @@ class App.Views.MapView extends Backbone.View
     userLocationArray = JSON.parse(sessionStorage.getItem("userLocation"))
     @userLocation = new google.maps.LatLng(userLocationArray.latitude, userLocationArray.longitude)
 
+    @userDestination = sessionStorage.getItem("userDestination")
+
   render: =>
     @$el.html(@template())
     @renderMap()
@@ -71,8 +73,8 @@ class App.Views.MapView extends Backbone.View
     directionsRenderer.setPanel document.getElementById("directionsPanel")
     directionsService = new google.maps.DirectionsService()
     request =
-      origin: "316 N Laflin St, Chicago, IL 60607, USA"
-      destination: "Los Angeles, CA"
+      origin: @userLocation
+      destination: @userDestination
       travelMode: google.maps.DirectionsTravelMode.DRIVING
       unitSystem: google.maps.DirectionsUnitSystem.METRIC
 
