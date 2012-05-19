@@ -8,14 +8,7 @@ class WeatherStationsController < ApplicationController
                                       .order_by([[:station_number, :asc]])
                                       .page(params[:page])
 
-    logger.debug @weather_stations.count
-
-    logger.debug @weather_stations.inspect
-
-    logger.debug WeatherStation.count
-
-
-    render :json => @weather_stations.map {|c| WeatherStationArraySerializer.new(c) }.to_json
+    render :json => WeatherStation.all.map {|c| WeatherStationArraySerializer.new(c) }.to_json
   end
 
   def show
