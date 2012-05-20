@@ -8,7 +8,9 @@ class App.Views.MapView extends App.Views.Page
     @gmaps = options.model
     @user = options.user
     @userLocation = @user.getLocationAsLatLng()
-    @userDestination = @user.get("destination")
+    @destination = @user.get("destination")
+    @markersArray = []
+
     super
   
   render: =>
@@ -32,29 +34,37 @@ class App.Views.MapView extends App.Views.Page
 
     @setupPlaces()
 
-    @setupDirections() if @userDestination?
+    google.maps.event.addListener @map, "bounds_changed", (event) =>
+      @setupPlaces() if new Date().getTime() - @lastRequest.getTime() > 200
+
+    @setupDirections() if @destination?
+
 
     $("[data-toggle=button]").button("toggle")
 
 
   setupPlaces: =>
+    return if @map.getZoom() < 10
+    return unless !@markersArray[0] || @markersArray[0].getMap()?
+    @lastRequest = new Date()
     request =
-      location: @userLocation
+      location: @map.getCenter()
       radius: @gmaps.placeRadius
       types: @gmaps.placeTypes
 
     @placesLayer = new google.maps.places.PlacesService(@map)
     @placesLayer.search request, (results, status) =>
       if status is google.maps.places.PlacesServiceStatus.OK
-        @markersArray = []
         for result in results
           place = result
           @markersArray.push new google.maps.Marker
             position: result.geometry.location
-            map: @mapCanvas
+            map: @map
             title: result.name
-            icon: '/img/gas_station.png'
-        @toggleOverlays()
+            icon: "/img/gas_station.png"
+
+
+
 
 
   setupDirections: =>
@@ -64,7 +74,7 @@ class App.Views.MapView extends App.Views.Page
 
     request =
       origin: @userLocation
-      destination: @userDestination
+      destination: @destination
       travelMode: @gmaps.travelMode
       unitSystem: @gmaps.unitSystem
 

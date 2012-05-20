@@ -6,16 +6,9 @@ class App.Views.SearchView extends App.Views.Page
   initialize: (options) ->
     @gmaps = options.model
     @user = options.user
-    @user.on("change", @updateLocation, @)
+    @user.on("locationChanged", @updateLocation, @)
+    @user.on("change", @render, @)
     super
-
-  updateLocation: =>
-    callback = (results) =>
-      @user.set({ address: results[0].formatted_address.split(",")[0] })
-      @user.save()
-      @render()
-    @gmaps.reverseGeoCode(@user.getLocationAsLatLng(), callback)
-
 
   render: =>
     @$el.html(@template(user: @user))
@@ -23,7 +16,13 @@ class App.Views.SearchView extends App.Views.Page
 
   onSearchFormSubmit: (event) ->
     event.preventDefault()
-    @user.set({ destination: @$('input[name=destination]').val() })
+    customAddress = @$('input[name=location]').val()
+    if customAddress.length > 3
+      address = customAddress
+    else
+      address = @$('input[name=location]').attr("placeholder")
+    @user.set({ address: address, destination: @$('input[name=destination]').val() })
+    @user.save()
     Backbone.history.navigate("info", true)
 
 
