@@ -6,9 +6,9 @@ require "sprockets/railtie"
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
-  Bundler.require(*Rails.groups(:assets => %w(development test)))
+  #Bundler.require(*Rails.groups(:assets => %w(development test)))
   # If you want your assets lazily compiled in production, use this line
-  # Bundler.require(:default, :assets, Rails.env)
+  Bundler.require(:default, :assets, Rails.env)
 end
 
 module DriverServicesApi
@@ -52,8 +52,12 @@ module DriverServicesApi
     # parameters by using an attr_accessible or attr_protected declaration.
     # config.active_record.whitelist_attributes = true
 
+    config.paths["public"] = "client/build"
+    config.paths["public/stylesheets"] = "client/build/stylesheets"
+    config.paths["public/javascripts"] = "client/build/javascripts"
+
     # Enable the asset pipeline
-    config.assets.enabled = true
+    config.assets.enabled = false
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
