@@ -1,1 +1,18 @@
-((function(){this.JST||(this.JST={}),this.JST["templates/map"]=function(a){a||(a={});var b=[],c=function(a){var c=b,d;return b=[],a.call(this),d=b.join(""),b=c,e(d)},d=function(a){return a&&a.ecoSafe?a:typeof a!="undefined"&&a!=null?g(a):""},e,f=a.safe,g=a.escape;return e=a.safe=function(a){if(a&&a.ecoSafe)return a;if(typeof a=="undefined"||a==null)a="";var b=new String(a);return b.ecoSafe=!0,b},g||(g=a.escape=function(a){return(""+a).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}),function(){((function(){b.push('<div class="row">\n  <div id="map_canvas">\n  </div>\n  <div class="navbar navbar-fixed-bottom">\n    <div class="navbar-inner">\n      <div class="container">\n        <div class="nav-collapse">\n            <div class="btn-group">\n              <button data-toggle="button" class="btn btn-primary toggle-traffic">Traffic</button>\n              <button data-toggle="button" class="btn btn-primary toggle-conditions">Weather</button>\n              <button data-toggle="button" class="btn btn-primary toggle-places">Services</button>\n              <button data-toggle="button" class="btn btn-primary toggle-directions">Directions</button>\n            </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n')})).call(this)}.call(a),a.safe=f,a.escape=g,b.join("")}})).call(this)
+<div class="row">
+  <div id="map_canvas">
+  </div>
+  <div class="navbar navbar-fixed-bottom">
+    <div class="navbar-inner">
+      <div class="container">
+        <div class="nav-collapse">
+            <div class="btn-group">
+              <button data-toggle="button" class="btn btn-primary toggle-traffic">Traffic</button>
+              <button data-toggle="button" class="btn btn-primary toggle-conditions">Weather</button>
+              <button data-toggle="button" class="btn btn-primary toggle-places">Services</button>
+              <button data-toggle="button" class="btn btn-primary toggle-directions">Directions</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

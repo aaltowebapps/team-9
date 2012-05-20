@@ -1,1 +1,7 @@
-((function(){this.JST||(this.JST={}),this.JST["templates/search"]=function(a){a||(a={});var b=[],c=function(a){var c=b,d;return b=[],a.call(this),d=b.join(""),b=c,e(d)},d=function(a){return a&&a.ecoSafe?a:typeof a!="undefined"&&a!=null?g(a):""},e,f=a.safe,g=a.escape;return e=a.safe=function(a){if(a&&a.ecoSafe)return a;if(typeof a=="undefined"||a==null)a="";var b=new String(a);return b.ecoSafe=!0,b},g||(g=a.escape=function(a){return(""+a).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}),function(){((function(){var a;a="Loading current location...",b.push("\n"),this.user.get("address")!=null&&(a=this.user.get("address")),b.push('\n<form id="search_form" class="well form-search" action="/#info">\n  <input name="location" type="text" class="input-large" placeholder="'),b.push(d(a)),b.push('">\n  <input name="destination" type="text" class="input-large" placeholder="Place you want to go">\n  <button type="submit" class="btn btn-primary btn-large">Go</button>\n</form>\n')})).call(this)}.call(a),a.safe=f,a.escape=g,b.join("")}})).call(this)
+<% address = "Loading current location..."  %>
+<% address = @user.get("address") if @user.get("address")? %>
+<form id="search_form" class="well form-search" action="/#info">
+  <input name="location" type="text" class="input-large" placeholder="<%= address %>">
+  <input name="destination" type="text" class="input-large" placeholder="Place you want to go">
+  <button type="submit" class="btn btn-primary btn-large">Go</button>
+</form>
