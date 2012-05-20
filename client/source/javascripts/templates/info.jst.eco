@@ -8,11 +8,14 @@
   <p><%= @end_address %></p>
 	<h3>Duration:</h3>
   <p><%= @duration %></p>
-	<h3>Warnings:<h3>
-	<img src="/img/glyphicons_021_snowflake.png"/>
-	<img src="/img/glyphicons_026_road.png"/>
-	<img src="/img/glyphicons_078_warning_sign.png"/>
-	<img src="/img/glyphicons_092_tint.png"/>
+  <% if @warnings.temperatureAvg: %>
+	<h3>Average temperature:</h3>
+  <p><%= @warnings.temperatureAvg %> &deg;C </p>
+  <% end %>
+  <% if @warnings.minVisibility: %>
+  <h3>Minimum visibility:</h3>
+  <p><%= @warnings.minVisibility %> m</p>
+  <% end %>
   <div class="form-actions">
     <a id="map_link" href="#map" class="btn btn-large">To the map!</a>
   </div>

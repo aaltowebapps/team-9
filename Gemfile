@@ -16,6 +16,8 @@ gem "savon", :require => false
 
 gem "kaminari"
 
+gem "thin"
+
 
 gem "jquery-rails"
 
