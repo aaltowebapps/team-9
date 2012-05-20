@@ -1,7 +1,7 @@
 class WeatherStationsController < ApplicationController
 
   def index
-    example = WeatherStation.new(:road => params[:road], :location => [params[:latitude].to_i, params[:longitude].to_i])
+    example = WeatherStation.new(:road => params[:road], :location => [params[:latitude].to_f, params[:longitude].to_f])
     @weather_stations = WeatherStation.find_all_by_example(example)
                                       .excludes(location: [0, 0], observation_data: nil)
                                       .order_by([[:station_number, :asc]])
