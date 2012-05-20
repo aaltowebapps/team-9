@@ -1,3 +1,3 @@
 class ObservationDataSerializer < ActiveModel::Serializer
-  attributes :temperature, :visibility
+  attributes :temperature, :visibility, :precipitation
 end

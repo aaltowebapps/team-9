@@ -16,12 +16,20 @@ class App.Views.SearchView extends App.Views.Page
 
   onSearchFormSubmit: (event) ->
     event.preventDefault()
+    destinationField = @$('input[name=destination]')
+    destination = destinationField.val()
+
+    if destination.length < 3
+      destinationField.addClass("error") 
+      return false
+
+
     customAddress = @$('input[name=location]').val()
     if customAddress.length > 3
       address = customAddress
     else
       address = @$('input[name=location]').attr("placeholder")
-    @user.set({ address: address, destination: @$('input[name=destination]').val() })
+    @user.set({ address: address, destination: destination })
     @user.save()
     Backbone.history.navigate("info", true)
 

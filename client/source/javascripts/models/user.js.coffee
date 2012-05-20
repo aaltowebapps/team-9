@@ -10,9 +10,11 @@ class App.Models.User extends Backbone.Model
 
   initialize: =>
     if navigator.geolocation
-      navigator.geolocation.getCurrentPosition(@currentPositionCallback)
+      #navigator.geolocation.getCurrentPosition(@currentPositionCallback)
+      navigator.geolocation.watchPosition(@currentPositionCallback)
     else
       console.log "No geolocation support"
+    
 
   currentPositionCallback: (position) =>
     @set({ latitude: position.coords.latitude, longitude: position.coords.longitude })
@@ -38,5 +40,5 @@ class App.Models.User extends Backbone.Model
       if status is google.maps.GeocoderStatus.OK
         callback(results)
       else
-        alert "Geocode was not successful for the following reason: " + status
+        console.log "Geocode was not successful for the following reason: " + status
 

@@ -27,8 +27,17 @@ html, body {
   box-sizing: border-box;
   @media (max-width: 979px) {
     padding-top: 50px;
+    #info_content, .page-header {
+      padding: 0 20px;
+    }
   }
 }
+
+input.error {
+  color: #B94A48;
+  border-color: #B94A48;
+}
+
 
 .navbar-fixed-top {
   margin: 0;

@@ -24,8 +24,6 @@ class App.Views.InfoView extends App.Views.Page
       
       midpoint = leg.steps[Math.ceil(leg.steps.length/2)].start_location
 
-      console.log midpoint
-
       #steps = _.max leg.steps, (step) ->
         #step.distance.value
       #road_number = steps.instructions.match(/E[\d]+/) # Road numbers are in wrong format :(
@@ -44,8 +42,13 @@ class App.Views.InfoView extends App.Views.Page
         memo + ws.get("observation_data").temperature
       , 0
 
+      rainConditions = ["Dry weather", "Mild rain", "Moderate rain", "Heavy rain", "Mild snow", "Moderate snow", "Heavy snow"]
+
+      warnings.precipitation = rainConditions[@weatherStations.at(0).get("observation_data").precipitation]
       warnings.temperatureAvg = Math.round(temperatureSum / @weatherStations.length * 10)/10
       warnings.minVisibility = (@weatherStations.min (ws) -> ws.get("observation_data").visibility).get("observation_data").visibility
+
+      console.log warnings
 
 
     options = { duration: @duration, start_address: @start_address, end_address: @end_address, warnings: warnings }

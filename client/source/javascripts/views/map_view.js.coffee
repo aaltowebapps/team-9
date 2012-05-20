@@ -7,10 +7,12 @@ class App.Views.MapView extends App.Views.Page
   initialize: (options) ->
     @gmaps = options.model
     @user = options.user
+    @user.on("change", @updatePosition, @)
     @userLocation = @user.getLocationAsLatLng()
     @destination = @user.get("destination")
     @markersArray = []
     @markerIds = []
+
 
     super
   
@@ -25,7 +27,15 @@ class App.Views.MapView extends App.Views.Page
       mapTypeId: @gmaps.mapTypeId
       center: @userLocation
     @map = new google.maps.Map($("#map_canvas")[0], myOptions)
-    
+
+    @userMarker = new google.maps.Marker
+              position: @userLocation
+              map: @map
+              title: "Your location"
+              zIndex: 9999
+              icon: "/img/marker.png"
+
+
     @trafficLayer = new google.maps.TrafficLayer()
     @toggleLayer(@trafficLayer)
 
@@ -33,6 +43,8 @@ class App.Views.MapView extends App.Views.Page
       temperatureUnits: google.maps.weather.TemperatureUnit.CELCIUS
     @toggleLayer(@weatherLayer)
 
+
+    @placesLayer = new google.maps.places.PlacesService(@map)
     @loadPlaces()
 
     @setupDirections() if @destination?
@@ -40,20 +52,26 @@ class App.Views.MapView extends App.Views.Page
 
     $("[data-toggle=button]").button("toggle")
 
+  updatePosition: =>
+    return unless @userMarker?
+    @userLocation = @user.getLocationAsLatLng()
+    @userMarker.setPosition(@userLocation)
+    @requestDirections()
+
 
   loadPlaces: =>
     setTimeout => 
       @loadPlaces()
-    , 500
+    , 1000
     return if @map.getZoom() < 10
     return unless !@markersArray[0] || @markersArray[0].getMap()?
     @lastRequest = new Date()
+    radius = @gmaps.placeRadius * Math.pow(@gmaps.zoom / @map.getZoom(), 2)
+    radius = 50000 if radius > 50000 
     request =
       location: @map.getCenter()
-      radius: @gmaps.placeRadius
+      radius: radius
       types: @gmaps.placeTypes
-
-    @placesLayer = new google.maps.places.PlacesService(@map)
 
     @placesLayer.search request, (results, status) =>
       if status is google.maps.places.PlacesServiceStatus.OK
@@ -82,7 +100,9 @@ class App.Views.MapView extends App.Views.Page
     @directionsLayer = new google.maps.DirectionsRenderer()
     @directionsLayer.setMap @map
     @directionsLayer.setPanel $("#directions_panel")[0]
+    @requestDirections()
 
+  requestDirections: =>
     request =
       origin: @userLocation
       destination: @destination

@@ -12,13 +12,16 @@ class App.Routers.Main extends Backbone.Router
     @header = new App.Views.HeaderView(el: $("#header"), model: @user)
      
   search: ->
-    view = new App.Views.SearchView(model: @gmaps, user: @user)
-    @header.setActive(".home")
+    @setView(App.Views.SearchView, ".home")
 
   info: ->
-    view = new App.Views.InfoView(model: @gmaps, user: @user)
-    @header.setActive(".route")
+    @setView(App.Views.InfoView, ".info")
 
   map: ->
-    view = new App.Views.MapView(model: @gmaps, user: @user)
-    @header.setActive(".map")
+    @setView(App.Views.MapView, ".map")
+
+  setView: (ViewClass, name) ->
+    @activeView.close() if @activeView?
+    view = new ViewClass(model: @gmaps, user: @user)
+    @activeView = view
+    @header.setActive(name)

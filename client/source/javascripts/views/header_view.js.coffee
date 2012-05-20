@@ -3,7 +3,7 @@ class App.Views.HeaderView extends Backbone.View
   template: JST["templates/header"]
 
   initialize: (options) ->
-    @user = options.user
+    @user = options.model
     @render()
 
   render: =>
@@ -17,7 +17,9 @@ class App.Views.HeaderView extends Backbone.View
 
   onSearchFormSubmit: (event) ->
     event.preventDefault()
-    @user.destination = @$('input[name=destination]').val()
+    destination = @$('input[name=destination]').val()
+    return if destination.length < 3
+    @user.set({ destination: destination })
     Backbone.history.fragment = null
     Backbone.history.navigate("info", true)
 

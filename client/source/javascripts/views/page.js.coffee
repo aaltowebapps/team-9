@@ -4,3 +4,7 @@ class App.Views.Page extends Backbone.View
   initialize: =>
     @render()
     $(".nav-collapse").collapse("hide")
+
+  close: ->
+    @unbind()
+    @user.off()

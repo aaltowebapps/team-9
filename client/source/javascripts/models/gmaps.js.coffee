@@ -13,6 +13,6 @@ class App.Models.GMaps extends Backbone.Model
 
     
   requestDirections: (request, callback) ->
-    @directionsService.route request, (response, status) =>
+    @directionsService.route request, (response, status, error) =>
       if status is google.maps.DirectionsStatus.OK
         callback(response, status)

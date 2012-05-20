@@ -4,6 +4,7 @@ class WeatherStation
   field :station_number, :type => Integer
   field :road, :type => Integer
   field :location, :type => Array
+
   index([[ :location, Mongo::GEO2D ]])
 
   embeds_one :observation_data, :class_name => "ObservationData"
