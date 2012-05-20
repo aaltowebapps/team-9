@@ -3,11 +3,12 @@ class App.Views.InfoView extends App.Views.Page
   template: JST["templates/info"]
 
   initialize: (options) =>
+
     @gmaps = options.model
     @user = options.user
-    @userLocation = @user.getLocationAsLatLng()
-    @userDestination = @user.destination
 
+    @userLocation = @user.getLocationAsLatLng()
+    @userDestination = @user.get("destination")
     request =
       origin: @userLocation
       destination: @userDestination
@@ -20,10 +21,13 @@ class App.Views.InfoView extends App.Views.Page
       @end_address = leg.end_address
       @render()
 
+    console.log @duration
+
     super
 
 
   render: =>
+    console.log @duration
     @$el.html(@template(duration: @duration, start_address: @start_address, end_address: @end_address))
     @
 

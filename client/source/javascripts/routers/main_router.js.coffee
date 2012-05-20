@@ -7,7 +7,8 @@ class App.Routers.Main extends Backbone.Router
 
   initialize: ->
     @gmaps = new App.Models.GMaps()
-    @user = new App.Models.User()
+    @user = new App.Models.User({ id: 1 })
+    @user.fetch()
     @header = new App.Views.HeaderView(el: $("#header"), model: @user)
      
   search: ->

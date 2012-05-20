@@ -8,7 +8,7 @@ class App.Views.MapView extends App.Views.Page
     @gmaps = options.model
     @user = options.user
     @userLocation = @user.getLocationAsLatLng()
-    @userDestination = @user.destination
+    @userDestination = @user.get("destination")
     super
   
   render: =>
@@ -54,13 +54,13 @@ class App.Views.MapView extends App.Views.Page
             map: @mapCanvas
             title: result.name
             icon: '/img/gas_station.png'
+        @toggleOverlays()
 
 
   setupDirections: =>
-    directionsRenderer = new google.maps.DirectionsRenderer()
-    directionsRenderer.setMap @map
-    directionsRenderer.setPanel $("#directions_panel")[0]
-
+    @directionsLayer = new google.maps.DirectionsRenderer()
+    @directionsLayer.setMap @map
+    @directionsLayer.setPanel $("#directions_panel")[0]
 
     request =
       origin: @userLocation
@@ -68,8 +68,8 @@ class App.Views.MapView extends App.Views.Page
       travelMode: @gmaps.travelMode
       unitSystem: @gmaps.unitSystem
 
-    @gmaps.requestDirections request, (response, status) ->
-      directionsRenderer.setDirections response
+    @gmaps.requestDirections request, (response, status) =>
+      @directionsLayer.setDirections response
 
   toggleLayer: (layer) =>
     layer.setMap(if layer.getMap()? then null else @map)

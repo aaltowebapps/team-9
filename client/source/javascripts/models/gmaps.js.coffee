@@ -11,11 +11,6 @@ class App.Models.GMaps extends Backbone.Model
   initialize: =>
     @directionsService = new google.maps.DirectionsService()
 
-    request =
-      origin: @userLocation
-      destination: @userDestination
-      travelMode: google.maps.TravelMode.DRIVING
-
     
   requestDirections: (request, callback) ->
     @directionsService.route request, (response, status) =>

@@ -1,6 +1,7 @@
 #= require "./vendor/jquery"
 #= require "./vendor/underscore"
 #= require "./vendor/backbone"
+#= require "./vendor/backbone.localStorage"
 #= require "./vendor/bootstrap"
 #= require "app"
 #= require_tree "./templates"

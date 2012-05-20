@@ -1,25 +1,23 @@
 class App.Models.User extends Backbone.Model
+
+  localStorage: new Backbone.LocalStorage("User")
+
   defaults:
     address: undefined
-    latitude: 60
-    longitude: 20
-    destination: "helsinki"
+    latitude: 60.166591
+    longitude: 24.943565
+    destination: "Helsinki"
 
   initialize: =>
-    @latitude = sessionStorage.getItem("latitude") if sessionStorage.getItem("latitude")?
-    @longitude = sessionStorage.getItem("longitude") if sessionStorage.getItem("longitude")?
-
     if navigator.geolocation
       navigator.geolocation.getCurrentPosition(@currentPositionCallback)
     else
       console.log "No geolocation support"
 
   currentPositionCallback: (position) =>
-    @latitude = position.coords.latitude
-    @longitude = position.coords.longitude
-    sessionStorage.setItem("latitude", @latitude)
-    sessionStorage.setItem("longitude", @longitude)
+    @set({ latitude: position.coords.latitude, longitude: position.coords.longitude })
+    @save
     @trigger("locationChanged")
 
   getLocationAsLatLng: =>
-    new google.maps.LatLng(@latitude, @longitude)
+    new google.maps.LatLng(@get("latitude"), @get("longitude"))
