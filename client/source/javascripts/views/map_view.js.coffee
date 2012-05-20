@@ -10,6 +10,7 @@ class App.Views.MapView extends App.Views.Page
     @userLocation = @user.getLocationAsLatLng()
     @destination = @user.get("destination")
     @markersArray = []
+    @markerIds = []
 
     super
   
@@ -55,7 +56,6 @@ class App.Views.MapView extends App.Views.Page
     @placesLayer = new google.maps.places.PlacesService(@map)
 
     @placesLayer.search request, (results, status) =>
-      tempMarkersArray = []
       if status is google.maps.places.PlacesServiceStatus.OK
         for result in results
           if "lodging" in result.types
@@ -65,14 +65,14 @@ class App.Views.MapView extends App.Views.Page
           else
             icon = "/img/gas_station.png"
 
-          place = new google.maps.Marker
-            position: result.geometry.location
-            map: @map
-            title: result.name
-            id: result.id
-            icon: icon
-          tempMarkersArray.push place
-      @markersArray = _.union(@markersArray, tempMarkersArray)
+          unless result.id in @markerIds
+            place = new google.maps.Marker
+              position: result.geometry.location
+              map: @map
+              title: result.name
+              icon: icon
+            @markersArray.push place
+            @markerIds.push result.id
 
 
 
