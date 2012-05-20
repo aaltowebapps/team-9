@@ -27,6 +27,7 @@ class App.Views.MapView extends App.Views.Page
       mapTypeId: google.maps.MapTypeId.ROADMAP
       center: @userLocation
       mapTypeControl: false
+      zoomControl: google.maps.ZoomControlStyle.SMALL
       panControl: false
     @map = new google.maps.Map($("#map_canvas")[0], myOptions)
 
