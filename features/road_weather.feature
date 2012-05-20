@@ -8,7 +8,6 @@ Feature: Road weather
     When I send a GET request for "/weather_stations"
     Then the response status should be "200"
     And the JSON response should have 2 weather stations
-    And the JSON response at "0/road" should be 1
 
 
   Scenario: Return all weather stations with a single road
@@ -17,7 +16,7 @@ Feature: Road weather
     | 1    |
     | 2    |
     | 1    |
-    When I send a GET request for "/weather_stations?weather_station[road]=1"
+    When I send a GET request for "/weather_stations?road=1"
     Then the response status should be "200"
     And the JSON response should have 2 weather stations
     And the JSON response at "0/road" should be 1
@@ -25,11 +24,11 @@ Feature: Road weather
 
 
   Scenario: Return 10 weather stations near my location
-    Given 10 weather stations exist
+    Given 20 weather stations exist
     And 1 weather stations exist with location: [1.3, 1.4]
-    When I send a GET request for "/weather_stations?weather_station[location][]=1.1&weather_station[location][]=1.2"
+    When I send a GET request for "/weather_stations?latitude=1.1&longitude=1.2"
     Then the response status should be "200"
-    And the JSON response should have 10 weather stations
+    And the JSON response should have 20 weather stations
     And the JSON response at "0/location/0" should be 1.3
     And the JSON response at "0/location/1" should be 1.4
 
