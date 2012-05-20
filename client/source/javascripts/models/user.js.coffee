@@ -8,7 +8,6 @@ class App.Models.User extends Backbone.Model
   initialize: =>
     @latitude = sessionStorage.getItem("latitude") if sessionStorage.getItem("latitude")?
     @longitude = sessionStorage.getItem("longitude") if sessionStorage.getItem("longitude")?
-    @destination = sessionStorage.getItem("destination") if sessionStorage.getItem("destination")?
 
     if navigator.geolocation
       navigator.geolocation.getCurrentPosition(@currentPositionCallback)
