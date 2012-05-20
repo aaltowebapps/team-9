@@ -1,4 +1,7 @@
+<% address = "Loading current location..."  %>
+<% address = @user.get("address") if @user.get("address")? %>
 <form id="search_form" class="well form-search" action="/#info">
+  <input name="location" type="text" class="input-large" placeholder="<%= address %>">
   <input name="destination" type="text" class="input-large" placeholder="Place you want to go">
   <button type="submit" class="btn btn-primary btn-large">Go</button>
 </form>

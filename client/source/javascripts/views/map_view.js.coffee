@@ -3,15 +3,14 @@ class App.Views.MapView extends App.Views.Page
   template: JST["templates/map"]
 
   className: "map"
-  
-  initialize: (options) =>
-    userLocationArray = JSON.parse(sessionStorage.getItem("userLocation"))
-    @userLocation = new google.maps.LatLng(userLocationArray.latitude, userLocationArray.longitude)
 
-    @userDestination = sessionStorage.getItem("userDestination")
-
+  initialize: (options) ->
+    @gmaps = options.model
+    @user = options.user
+    @userLocation = @user.getLocationAsLatLng()
+    @userDestination = @user.destination
     super
-
+  
   render: =>
     @$el.html(@template())
     @renderMap()
@@ -19,8 +18,8 @@ class App.Views.MapView extends App.Views.Page
 
   renderMap: =>
     myOptions =
-      zoom: 13
-      mapTypeId: google.maps.MapTypeId.ROADMAP
+      zoom: @gmaps.zoom
+      mapTypeId: @gmaps.mapTypeId
       center: @userLocation
     @map = new google.maps.Map($("#map_canvas")[0], myOptions)
     
@@ -35,20 +34,14 @@ class App.Views.MapView extends App.Views.Page
 
     @setupDirections() if @userDestination?
 
-    $(".toggle-traffic, .toggle-conditions, .toggle-places").button("toggle")
-
-  toggleLayer: (layer) =>
-    layer.setMap(if layer.getMap()? then null else @map)
-
-
-  currentPositionCallback: (position) =>
+    $("[data-toggle=button]").button("toggle")
 
 
   setupPlaces: =>
     request =
       location: @userLocation
-      radius: "5000"
-      types: [ "gas_station" ]
+      radius: @gmaps.placeRadius
+      types: @gmaps.placeTypes
 
     @placesLayer = new google.maps.places.PlacesService(@map)
     @placesLayer.search request, (results, status) =>
@@ -58,29 +51,28 @@ class App.Views.MapView extends App.Views.Page
           place = result
           @markersArray.push new google.maps.Marker
             position: result.geometry.location
-            map: @map
+            map: @mapCanvas
             title: result.name
             icon: '/img/gas_station.png'
-      else
-        console.log status
 
 
   setupDirections: =>
     directionsRenderer = new google.maps.DirectionsRenderer()
     directionsRenderer.setMap @map
-    directionsRenderer.setPanel document.getElementById("directionsPanel")
-    directionsService = new google.maps.DirectionsService()
+    directionsRenderer.setPanel $("#directions_panel")[0]
+
+
     request =
       origin: @userLocation
       destination: @userDestination
-      travelMode: google.maps.DirectionsTravelMode.DRIVING
-      unitSystem: google.maps.DirectionsUnitSystem.METRIC
+      travelMode: @gmaps.travelMode
+      unitSystem: @gmaps.unitSystem
 
-    directionsService.route request, (response, status) ->
-      if status is google.maps.DirectionsStatus.OK
-        directionsRenderer.setDirections response
-      else
-        alert "Error: " + status
+    @gmaps.requestDirections request, (response, status) ->
+      directionsRenderer.setDirections response
+
+  toggleLayer: (layer) =>
+    layer.setMap(if layer.getMap()? then null else @map)
 
   toggleOverlays: =>
     for marker in @markersArray
@@ -92,7 +84,14 @@ class App.Views.MapView extends App.Views.Page
   toggleWeatherLayer: =>
     @toggleLayer(@weatherLayer)
 
+  toggleDirectionsLayer: =>
+    @toggleLayer(@directionsLayer)
+
+
   events:
     "click .toggle-traffic" : "toggleTrafficLayer"
     "click .toggle-conditions" : "toggleWeatherLayer"
+    "click .toggle-directions" : "toggleDirectionsLayer"
     "click .toggle-places" : "toggleOverlays"
+
+

@@ -1,15 +1,29 @@
 class App.Views.SearchView extends App.Views.Page
   
   template: JST["templates/search"]
-  el: "#dynamic"
+  el: "#content"
+
+  initialize: (options) ->
+    @gmaps = options.model
+    @user = options.user
+    @user.bind("locationChanged", @updateLocation, @)
+    super
+
+  updateLocation: =>
+    callback = (results) =>
+      @user.set({ address: results[0].formatted_address.split(",")[0] })
+      @render()
+    @gmaps.reverseGeoCode(@user.getLocationAsLatLng(), callback)
+
 
   render: =>
-    @$el.html(@template())
+    @$el.html(@template(user: @user))
     @
 
   onSearchFormSubmit: (event) ->
     event.preventDefault()
-    sessionStorage.setItem("userDestination", @$('input[name=destination]').val())
+    @user.destination = @$('input[name=destination]').val()
+    sessionStorage.setItem("destination", @user.destination)
     Backbone.history.navigate("info", true)
 
 

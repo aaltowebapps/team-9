@@ -14,6 +14,6 @@
 	<img src="/img/glyphicons_078_warning_sign.png"/>
 	<img src="/img/glyphicons_092_tint.png"/>
   <div class="form-actions">
-    <a href="#map" class="btn btn-large" style=display:block;">To the map!</a>
+    <a id="map_link" href="#map" class="btn btn-large">To the map!</a>
   </div>
 </div>

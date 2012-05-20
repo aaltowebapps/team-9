@@ -1,5 +1,5 @@
 class App.Views.Page extends Backbone.View
-  el: "#dynamic"
+  el: "#content"
 
   initialize: =>
     @render()

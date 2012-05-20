@@ -9,7 +9,7 @@
               <button data-toggle="button" class="btn btn-primary toggle-traffic">Traffic</button>
               <button data-toggle="button" class="btn btn-primary toggle-conditions">Weather</button>
               <button data-toggle="button" class="btn btn-primary toggle-places">Services</button>
-              <button data-toggle="button" class="btn btn-primary toggle-places">Directions</button>
+              <button data-toggle="button" class="btn btn-primary toggle-directions">Directions</button>
             </div>
         </div>
       </div>
