@@ -7,7 +7,7 @@ class App.Views.InfoView extends App.Views.Page
     @gmaps = options.model
     @user = options.user
 
-    @userLocation = @user.getLocationAsLatLng()
+    @userLocation = @user.get("address")
     @userDestination = @user.get("destination")
     request =
       origin: @userLocation
@@ -21,13 +21,10 @@ class App.Views.InfoView extends App.Views.Page
       @end_address = leg.end_address
       @render()
 
-    console.log @duration
-
     super
 
 
   render: =>
-    console.log @duration
     @$el.html(@template(duration: @duration, start_address: @start_address, end_address: @end_address))
     @
 
