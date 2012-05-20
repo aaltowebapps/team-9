@@ -32,10 +32,7 @@ class App.Views.MapView extends App.Views.Page
       temperatureUnits: google.maps.weather.TemperatureUnit.CELCIUS
     @toggleLayer(@weatherLayer)
 
-    @setupPlaces()
-
-    google.maps.event.addListener @map, "bounds_changed", (event) =>
-      @setupPlaces() if new Date().getTime() - @lastRequest.getTime() > 200
+    @loadPlaces()
 
     @setupDirections() if @destination?
 
@@ -43,7 +40,10 @@ class App.Views.MapView extends App.Views.Page
     $("[data-toggle=button]").button("toggle")
 
 
-  setupPlaces: =>
+  loadPlaces: =>
+    setTimeout => 
+      @loadPlaces()
+    , 500
     return if @map.getZoom() < 10
     return unless !@markersArray[0] || @markersArray[0].getMap()?
     @lastRequest = new Date()
@@ -53,15 +53,26 @@ class App.Views.MapView extends App.Views.Page
       types: @gmaps.placeTypes
 
     @placesLayer = new google.maps.places.PlacesService(@map)
+
     @placesLayer.search request, (results, status) =>
+      tempMarkersArray = []
       if status is google.maps.places.PlacesServiceStatus.OK
         for result in results
-          place = result
-          @markersArray.push new google.maps.Marker
+          if "lodging" in result.types
+            icon = "/img/hotel.png"
+          else if "car_repair" in result.types
+            icon = "/img/car_repair.png"
+          else
+            icon = "/img/gas_station.png"
+
+          place = new google.maps.Marker
             position: result.geometry.location
             map: @map
             title: result.name
-            icon: "/img/gas_station.png"
+            id: result.id
+            icon: icon
+          tempMarkersArray.push place
+      @markersArray = _.union(@markersArray, tempMarkersArray)
 
 
 
