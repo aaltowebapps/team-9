@@ -24,8 +24,10 @@ class App.Views.MapView extends App.Views.Page
   renderMap: =>
     myOptions =
       zoom: @gmaps.zoom
-      mapTypeId: @gmaps.mapTypeId
+      mapTypeId: google.maps.MapTypeId.ROADMAP
       center: @userLocation
+      mapTypeControl: false
+      panControl: false
     @map = new google.maps.Map($("#map_canvas")[0], myOptions)
 
     @userMarker = new google.maps.Marker
@@ -45,7 +47,7 @@ class App.Views.MapView extends App.Views.Page
 
 
     @placesLayer = new google.maps.places.PlacesService(@map)
-    @loadPlaces()
+    @loadPlaces(false)
 
     @setupDirections() if @destination?
 
@@ -56,13 +58,15 @@ class App.Views.MapView extends App.Views.Page
     return unless @userMarker?
     @userLocation = @user.getLocationAsLatLng()
     @userMarker.setPosition(@userLocation)
-    @requestDirections()
+    @map.setCenter(@userLocation)
+    #@requestDirections()
 
 
-  loadPlaces: =>
+  loadPlaces: (loadMarkers) =>
     setTimeout => 
-      @loadPlaces()
+      @loadPlaces(true)
     , 1000
+    return unless loadMarkers
     return if @map.getZoom() < 10
     return unless !@markersArray[0] || @markersArray[0].getMap()?
     @lastRequest = new Date()
