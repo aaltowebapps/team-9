@@ -48,8 +48,6 @@ class App.Views.InfoView extends App.Views.Page
       warnings.temperatureAvg = Math.round(temperatureSum / @weatherStations.length * 10)/10
       warnings.minVisibility = (@weatherStations.min (ws) -> ws.get("observation_data").visibility).get("observation_data").visibility
 
-      console.log warnings
-
 
     options = { duration: @duration, start_address: @start_address, end_address: @end_address, warnings: warnings }
     @$el.html(@template(options))

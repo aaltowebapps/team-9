@@ -23,7 +23,7 @@ class App.Views.MapView extends App.Views.Page
 
   renderMap: =>
     myOptions =
-      zoom: @gmaps.zoom
+      zoom: 13
       mapTypeId: google.maps.MapTypeId.ROADMAP
       center: @userLocation
       mapTypeControl: false
@@ -48,7 +48,14 @@ class App.Views.MapView extends App.Views.Page
 
 
     @placesLayer = new google.maps.places.PlacesService(@map)
-    @loadPlaces(false)
+
+
+
+    google.maps.event.addListener @map, "idle", =>
+      request =
+        bounds: @map.getBounds()
+        types: @gmaps.placeTypes
+      @loadPlace(request)
 
     @setupDirections() if @destination?
 
@@ -63,23 +70,29 @@ class App.Views.MapView extends App.Views.Page
     #@requestDirections()
 
 
-  loadPlaces: (loadMarkers) =>
-    setTimeout => 
-      @loadPlaces(true)
-    , 1000
-    return unless loadMarkers
-    return if @map.getZoom() < 10
-    return unless !@markersArray[0] || @markersArray[0].getMap()?
+  loadPlaces: (locations) =>
+    return unless locations.length > 0
+    #return if @map.getZoom() < 10
+    
+
     @lastRequest = new Date()
-    radius = @gmaps.placeRadius * Math.pow(@gmaps.zoom / @map.getZoom(), 2)
-    radius = 50000 if radius > 50000 
+
     request =
-      location: @map.getCenter()
-      radius: radius
+      location: locations.shift()
+      radius: 20000
       types: @gmaps.placeTypes
 
+    @loadPlace(request)
+
+    setTimeout => 
+      @loadPlaces(locations)
+    , 300
+
+  loadPlace: (request) =>
+    return unless !@markersArray[0] || @markersArray[0].getMap()?
     @placesLayer.search request, (results, status) =>
       if status is google.maps.places.PlacesServiceStatus.OK
+        oldMarkerCount = @markerIds.length
         for result in results
           if "lodging" in result.types
             icon = "/img/hotel.png"
@@ -100,7 +113,6 @@ class App.Views.MapView extends App.Views.Page
 
 
 
-
   setupDirections: =>
     @directionsLayer = new google.maps.DirectionsRenderer()
     @directionsLayer.setMap @map
@@ -116,6 +128,7 @@ class App.Views.MapView extends App.Views.Page
 
     @gmaps.requestDirections request, (response, status) =>
       @directionsLayer.setDirections response
+      @loadPlaces(_.pluck(response.routes[0].legs[0].steps, "start_location"))
 
   toggleLayer: (layer) =>
     layer.setMap(if layer.getMap()? then null else @map)
